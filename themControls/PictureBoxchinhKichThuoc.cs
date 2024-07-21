@@ -1,20 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QLKS
+namespace themControls
 {
-    public partial class Form1 : Form
+    public class PictureBoxchinhKichThuoc : PictureBox
     {
-        public Form1()
+        public PictureBoxchinhKichThuoc()
         {
-            InitializeComponent();
+            this.SizeMode = PictureBoxSizeMode.Zoom;
         }
+
     }
 }

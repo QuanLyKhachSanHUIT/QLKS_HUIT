@@ -1,0 +1,8 @@
+E:\QLKS_HUIT\themControls\bin\Debug\themControls.dll
+E:\QLKS_HUIT\themControls\bin\Debug\themControls.pdb
+E:\QLKS_HUIT\themControls\obj\Debug\themControls.csproj.AssemblyReference.cache
+E:\QLKS_HUIT\themControls\obj\Debug\themControls.csproj.CoreCompileInputs.cache
+E:\QLKS_HUIT\themControls\obj\Debug\themControls.dll
+E:\QLKS_HUIT\themControls\obj\Debug\themControls.pdb
+E:\QLKS_HUIT\themControls\obj\Debug\themControls.NightControlBox.resources
+E:\QLKS_HUIT\themControls\obj\Debug\themControls.csproj.GenerateResource.cache
