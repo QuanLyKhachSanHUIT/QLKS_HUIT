@@ -18,6 +18,7 @@ namespace QLKS
 
         }
         bool menukhachsanExpand = false;
+        bool menuloaiphongExpand = false;
         private void khachsanTransition_Tick(object sender, EventArgs e)
         {
             if (menukhachsanExpand == false)
@@ -43,6 +44,33 @@ namespace QLKS
         private void btnSodokhachsan_Click(object sender, EventArgs e)
         {
             menukhachsanTransition.Start();
+        }
+
+        private void btnLoaiphongvaCaidat_Click(object sender, EventArgs e)
+        {
+            menuloaiphongTransition.Start();
+        }
+
+        private void menuloaiphongTransition_Tick(object sender, EventArgs e)
+        {
+            if (menuloaiphongExpand == false)
+            {
+                menuLoaiphongContainer.Height += 25;
+                if (menuLoaiphongContainer.Height >= 175)
+                {
+                    menuloaiphongTransition.Stop();
+                    menuloaiphongExpand = true;
+                }
+            }
+            else
+            {
+                menuLoaiphongContainer.Height -= 25;
+                if (menuLoaiphongContainer.Height <= 50)
+                {
+                    menuloaiphongTransition.Stop();
+                    menuloaiphongExpand = false;
+                }
+            }
         }
     }
 }

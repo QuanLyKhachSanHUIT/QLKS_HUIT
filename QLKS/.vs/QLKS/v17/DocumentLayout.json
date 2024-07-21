@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{8454AEA4-0342-4DF4-80D6-A4F164593F06}|QLKS.csproj|solutionrelative:formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8454AEA4-0342-4DF4-80D6-A4F164593F06}|QLKS.csproj|e:\\qlks_huit\\qlks\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8454AEA4-0342-4DF4-80D6-A4F164593F06}|QLKS.csproj|E:\\QLKS_HUIT\\QLKS\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8454AEA4-0342-4DF4-80D6-A4F164593F06}|QLKS.csproj|solutionrelative:formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -17,7 +17,7 @@
       "AbsoluteMoniker": "D:0:0:{A332FDCD-4037-41D8-8F43-4C52A114C044}|..\\themControls\\themControls.csproj|e:\\qlks_huit\\themcontrols\\nightcontrolbox.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8454AEA4-0342-4DF4-80D6-A4F164593F06}|QLKS.csproj|e:\\qlks_huit\\qlks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8454AEA4-0342-4DF4-80D6-A4F164593F06}|QLKS.csproj|E:\\QLKS_HUIT\\QLKS\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8454AEA4-0342-4DF4-80D6-A4F164593F06}|QLKS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,7 +50,7 @@
               "RelativeDocumentMoniker": "FormMain.cs",
               "ToolTip": "E:\\QLKS_HUIT\\QLKS\\FormMain.cs",
               "RelativeToolTip": "FormMain.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAIAwwB4AAAANAAAA",
+              "ViewState": "AQIAADsAAAAAAAAAAAAswEoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-21T10:13:48.807Z",
               "EditorCaption": ""
@@ -77,8 +77,7 @@
               "ToolTip": "E:\\QLKS_HUIT\\themControls\\NightControlBox.resx",
               "RelativeToolTip": "..\\themControls\\NightControlBox.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-07-21T12:39:34.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T12:39:34.135Z"
             },
             {
               "$type": "Document",
@@ -90,8 +89,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T10:15:49.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T10:15:49.783Z"
             }
           ]
         }

@@ -34,10 +34,13 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBoxchinhKichThuoc1 = new themControls.PictureBoxchinhKichThuoc();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnkhachsan1 = new System.Windows.Forms.Button();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.btnSodokhachsan = new System.Windows.Forms.Button();
-            this.btnLoaiPhongvaCaidat = new System.Windows.Forms.Button();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.menukhachsanContainer = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnkhachsan1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.btnDichvuvaKho = new System.Windows.Forms.Button();
             this.btnCongno = new System.Windows.Forms.Button();
             this.btnTienchivaPhieuthu = new System.Windows.Forms.Button();
@@ -45,15 +48,18 @@
             this.btnThongke = new System.Windows.Forms.Button();
             this.btnKhachhang = new System.Windows.Forms.Button();
             this.btnNhanvien = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.menukhachsanContainer = new System.Windows.Forms.FlowLayoutPanel();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.menukhachsanTransition = new System.Windows.Forms.Timer(this.components);
+            this.button7 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.menuLoaiphongContainer = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnLoaiphongvaCaidat = new System.Windows.Forms.Button();
+            this.menuloaiphongTransition = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxchinhKichThuoc1)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             this.menukhachsanContainer.SuspendLayout();
+            this.menuLoaiphongContainer.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -91,7 +97,7 @@
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.Silver;
             this.flowLayoutPanel1.Controls.Add(this.btnSodokhachsan);
             this.flowLayoutPanel1.Controls.Add(this.menukhachsanContainer);
-            this.flowLayoutPanel1.Controls.Add(this.btnLoaiPhongvaCaidat);
+            this.flowLayoutPanel1.Controls.Add(this.menuLoaiphongContainer);
             this.flowLayoutPanel1.Controls.Add(this.btnDichvuvaKho);
             this.flowLayoutPanel1.Controls.Add(this.btnCongno);
             this.flowLayoutPanel1.Controls.Add(this.btnTienchivaPhieuthu);
@@ -104,6 +110,52 @@
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(269, 628);
             this.flowLayoutPanel1.TabIndex = 5;
+            // 
+            // btnSodokhachsan
+            // 
+            this.btnSodokhachsan.BackColor = System.Drawing.Color.Black;
+            this.btnSodokhachsan.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSodokhachsan.ForeColor = System.Drawing.Color.White;
+            this.btnSodokhachsan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSodokhachsan.ImageIndex = 0;
+            this.btnSodokhachsan.ImageList = this.imageList1;
+            this.btnSodokhachsan.Location = new System.Drawing.Point(3, 3);
+            this.btnSodokhachsan.Name = "btnSodokhachsan";
+            this.btnSodokhachsan.Size = new System.Drawing.Size(254, 55);
+            this.btnSodokhachsan.TabIndex = 8;
+            this.btnSodokhachsan.Text = "Sơ đồ Khách sạn";
+            this.btnSodokhachsan.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSodokhachsan.UseVisualStyleBackColor = false;
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "phongngu.png");
+            this.imageList1.Images.SetKeyName(1, "hotel.png");
+            this.imageList1.Images.SetKeyName(2, "money.png");
+            this.imageList1.Images.SetKeyName(3, "dichvu.png");
+            this.imageList1.Images.SetKeyName(4, "congno.png");
+            this.imageList1.Images.SetKeyName(5, "phieuthu.png");
+            this.imageList1.Images.SetKeyName(6, "doanhthu.png");
+            this.imageList1.Images.SetKeyName(7, "money.png");
+            this.imageList1.Images.SetKeyName(8, "khachhang.png");
+            this.imageList1.Images.SetKeyName(9, "nhanvien.png");
+            this.imageList1.Images.SetKeyName(10, "nhatky.png");
+            this.imageList1.Images.SetKeyName(11, "caidat.png");
+            this.imageList1.Images.SetKeyName(12, "giaphong.png");
+            // 
+            // menukhachsanContainer
+            // 
+            this.menukhachsanContainer.BackColor = System.Drawing.Color.Black;
+            this.menukhachsanContainer.Controls.Add(this.btnkhachsan1);
+            this.menukhachsanContainer.Controls.Add(this.button2);
+            this.menukhachsanContainer.Controls.Add(this.button3);
+            this.menukhachsanContainer.Controls.Add(this.button4);
+            this.menukhachsanContainer.Location = new System.Drawing.Point(3, 64);
+            this.menukhachsanContainer.Name = "menukhachsanContainer";
+            this.menukhachsanContainer.Size = new System.Drawing.Size(260, 55);
+            this.menukhachsanContainer.TabIndex = 11;
             // 
             // btnkhachsan1
             // 
@@ -122,53 +174,53 @@
             this.btnkhachsan1.UseVisualStyleBackColor = false;
             this.btnkhachsan1.Click += new System.EventHandler(this.btnSodokhachsan_Click);
             // 
-            // imageList1
+            // button2
             // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "phongngu.png");
-            this.imageList1.Images.SetKeyName(1, "hotel.png");
-            this.imageList1.Images.SetKeyName(2, "money.png");
-            this.imageList1.Images.SetKeyName(3, "dichvu.png");
-            this.imageList1.Images.SetKeyName(4, "congno.png");
-            this.imageList1.Images.SetKeyName(5, "phieuthu.png");
-            this.imageList1.Images.SetKeyName(6, "doanhthu.png");
-            this.imageList1.Images.SetKeyName(7, "money.png");
-            this.imageList1.Images.SetKeyName(8, "khachhang.png");
-            this.imageList1.Images.SetKeyName(9, "nhanvien.png");
-            this.imageList1.Images.SetKeyName(10, "nhatky.png");
+            this.button2.BackColor = System.Drawing.Color.Black;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.ImageIndex = 0;
+            this.button2.ImageList = this.imageList1;
+            this.button2.Location = new System.Drawing.Point(3, 59);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(254, 55);
+            this.button2.TabIndex = 8;
+            this.button2.Text = "Danh Sách Khách Sạn";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button2.UseVisualStyleBackColor = false;
             // 
-            // btnSodokhachsan
+            // button3
             // 
-            this.btnSodokhachsan.BackColor = System.Drawing.Color.Black;
-            this.btnSodokhachsan.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSodokhachsan.ForeColor = System.Drawing.Color.White;
-            this.btnSodokhachsan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSodokhachsan.ImageIndex = 0;
-            this.btnSodokhachsan.ImageList = this.imageList1;
-            this.btnSodokhachsan.Location = new System.Drawing.Point(3, 3);
-            this.btnSodokhachsan.Name = "btnSodokhachsan";
-            this.btnSodokhachsan.Size = new System.Drawing.Size(254, 55);
-            this.btnSodokhachsan.TabIndex = 8;
-            this.btnSodokhachsan.Text = "Sơ đồ Khách sạn";
-            this.btnSodokhachsan.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnSodokhachsan.UseVisualStyleBackColor = false;
+            this.button3.BackColor = System.Drawing.Color.Black;
+            this.button3.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.ImageIndex = 0;
+            this.button3.ImageList = this.imageList1;
+            this.button3.Location = new System.Drawing.Point(3, 120);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(254, 55);
+            this.button3.TabIndex = 9;
+            this.button3.Text = "Danh Sách Lầu/Tầng";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button3.UseVisualStyleBackColor = false;
             // 
-            // btnLoaiPhongvaCaidat
+            // button4
             // 
-            this.btnLoaiPhongvaCaidat.BackColor = System.Drawing.Color.Black;
-            this.btnLoaiPhongvaCaidat.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLoaiPhongvaCaidat.ForeColor = System.Drawing.Color.White;
-            this.btnLoaiPhongvaCaidat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLoaiPhongvaCaidat.ImageIndex = 2;
-            this.btnLoaiPhongvaCaidat.ImageList = this.imageList1;
-            this.btnLoaiPhongvaCaidat.Location = new System.Drawing.Point(3, 125);
-            this.btnLoaiPhongvaCaidat.Name = "btnLoaiPhongvaCaidat";
-            this.btnLoaiPhongvaCaidat.Size = new System.Drawing.Size(254, 55);
-            this.btnLoaiPhongvaCaidat.TabIndex = 9;
-            this.btnLoaiPhongvaCaidat.Text = "Loại phòng và Cài đặt";
-            this.btnLoaiPhongvaCaidat.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnLoaiPhongvaCaidat.UseVisualStyleBackColor = false;
+            this.button4.BackColor = System.Drawing.Color.Black;
+            this.button4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.ImageIndex = 10;
+            this.button4.ImageList = this.imageList1;
+            this.button4.Location = new System.Drawing.Point(3, 181);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(254, 55);
+            this.button4.TabIndex = 10;
+            this.button4.Text = "Nhật ký sử dụng";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // btnDichvuvaKho
             // 
@@ -282,69 +334,90 @@
             this.btnNhanvien.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnNhanvien.UseVisualStyleBackColor = false;
             // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Black;
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.ImageIndex = 0;
-            this.button2.ImageList = this.imageList1;
-            this.button2.Location = new System.Drawing.Point(3, 59);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(254, 55);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Danh Sách Khách Sạn";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // menukhachsanContainer
-            // 
-            this.menukhachsanContainer.BackColor = System.Drawing.Color.Black;
-            this.menukhachsanContainer.Controls.Add(this.btnkhachsan1);
-            this.menukhachsanContainer.Controls.Add(this.button2);
-            this.menukhachsanContainer.Controls.Add(this.button3);
-            this.menukhachsanContainer.Controls.Add(this.button4);
-            this.menukhachsanContainer.Location = new System.Drawing.Point(3, 64);
-            this.menukhachsanContainer.Name = "menukhachsanContainer";
-            this.menukhachsanContainer.Size = new System.Drawing.Size(260, 55);
-            this.menukhachsanContainer.TabIndex = 11;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Black;
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.ImageIndex = 0;
-            this.button3.ImageList = this.imageList1;
-            this.button3.Location = new System.Drawing.Point(3, 120);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(254, 55);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "Danh Sách Lầu/Tầng";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.Black;
-            this.button4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.ImageIndex = 10;
-            this.button4.ImageList = this.imageList1;
-            this.button4.Location = new System.Drawing.Point(3, 181);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(254, 55);
-            this.button4.TabIndex = 10;
-            this.button4.Text = "Nhật ký sử dụng";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button4.UseVisualStyleBackColor = false;
-            // 
             // menukhachsanTransition
             // 
             this.menukhachsanTransition.Tick += new System.EventHandler(this.khachsanTransition_Tick);
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.Black;
+            this.button7.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.White;
+            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button7.ImageIndex = 11;
+            this.button7.ImageList = this.imageList1;
+            this.button7.Location = new System.Drawing.Point(3, 181);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(254, 55);
+            this.button7.TabIndex = 10;
+            this.button7.Text = "Cài đặt chung";
+            this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button7.UseVisualStyleBackColor = false;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.Black;
+            this.button6.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.White;
+            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.ImageIndex = 4;
+            this.button6.ImageList = this.imageList1;
+            this.button6.Location = new System.Drawing.Point(3, 120);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(254, 55);
+            this.button6.TabIndex = 9;
+            this.button6.Text = "Danh sách giá mẫu";
+            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button6.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.Black;
+            this.button5.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.ImageIndex = 12;
+            this.button5.ImageList = this.imageList1;
+            this.button5.Location = new System.Drawing.Point(3, 59);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(254, 55);
+            this.button5.TabIndex = 8;
+            this.button5.Text = "Danh sách Loại phòng";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // menuLoaiphongContainer
+            // 
+            this.menuLoaiphongContainer.BackColor = System.Drawing.Color.Black;
+            this.menuLoaiphongContainer.Controls.Add(this.btnLoaiphongvaCaidat);
+            this.menuLoaiphongContainer.Controls.Add(this.button5);
+            this.menuLoaiphongContainer.Controls.Add(this.button6);
+            this.menuLoaiphongContainer.Controls.Add(this.button7);
+            this.menuLoaiphongContainer.Location = new System.Drawing.Point(3, 125);
+            this.menuLoaiphongContainer.Name = "menuLoaiphongContainer";
+            this.menuLoaiphongContainer.Size = new System.Drawing.Size(260, 55);
+            this.menuLoaiphongContainer.TabIndex = 12;
+            // 
+            // btnLoaiphongvaCaidat
+            // 
+            this.btnLoaiphongvaCaidat.BackColor = System.Drawing.Color.Black;
+            this.btnLoaiphongvaCaidat.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLoaiphongvaCaidat.ForeColor = System.Drawing.Color.White;
+            this.btnLoaiphongvaCaidat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLoaiphongvaCaidat.ImageIndex = 2;
+            this.btnLoaiphongvaCaidat.ImageList = this.imageList1;
+            this.btnLoaiphongvaCaidat.Location = new System.Drawing.Point(3, 3);
+            this.btnLoaiphongvaCaidat.Name = "btnLoaiphongvaCaidat";
+            this.btnLoaiphongvaCaidat.Size = new System.Drawing.Size(254, 50);
+            this.btnLoaiphongvaCaidat.TabIndex = 7;
+            this.btnLoaiphongvaCaidat.Text = "Loại phòng và Cài đặt";
+            this.btnLoaiphongvaCaidat.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnLoaiphongvaCaidat.UseVisualStyleBackColor = false;
+            this.btnLoaiphongvaCaidat.Click += new System.EventHandler(this.btnLoaiphongvaCaidat_Click);
+            // 
+            // menuloaiphongTransition
+            // 
+            this.menuloaiphongTransition.Tick += new System.EventHandler(this.menuloaiphongTransition_Tick);
             // 
             // FormMain
             // 
@@ -362,6 +435,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxchinhKichThuoc1)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.menukhachsanContainer.ResumeLayout(false);
+            this.menuLoaiphongContainer.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -375,7 +449,6 @@
         private System.Windows.Forms.Button btnkhachsan1;
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.Button btnSodokhachsan;
-        private System.Windows.Forms.Button btnLoaiPhongvaCaidat;
         private System.Windows.Forms.Button btnDichvuvaKho;
         private System.Windows.Forms.Button btnCongno;
         private System.Windows.Forms.Button btnTienchivaPhieuthu;
@@ -388,6 +461,12 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Timer menukhachsanTransition;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.FlowLayoutPanel menuLoaiphongContainer;
+        private System.Windows.Forms.Button btnLoaiphongvaCaidat;
+        private System.Windows.Forms.Timer menuloaiphongTransition;
     }
 }
 
