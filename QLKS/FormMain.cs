@@ -19,12 +19,16 @@ namespace QLKS
         }
         bool menukhachsanExpand = false;
         bool menuloaiphongExpand = false;
+        bool menudichvuExpand = false;
+        bool menucongnoExpand = false;
+        bool menutienchiphieuthuExpand = false;
+        bool sidebarExpand = false;
         private void khachsanTransition_Tick(object sender, EventArgs e)
         {
             if (menukhachsanExpand == false)
             {
-                menukhachsanContainer.Height += 25;
-                if (menukhachsanContainer.Height >= 175)
+                menukhachsanContainer.Height += 10;
+                if (menukhachsanContainer.Height >= 230)
                 {
                     menukhachsanTransition.Stop();
                     menukhachsanExpand = true;
@@ -32,8 +36,8 @@ namespace QLKS
             }
             else
             {
-                menukhachsanContainer.Height -= 25;
-                if (menukhachsanContainer.Height <= 50)
+                menukhachsanContainer.Height -= 5;
+                if (menukhachsanContainer.Height <= 45)
                 {
                     menukhachsanTransition.Stop();
                     menukhachsanExpand = false;
@@ -55,8 +59,8 @@ namespace QLKS
         {
             if (menuloaiphongExpand == false)
             {
-                menuLoaiphongContainer.Height += 25;
-                if (menuLoaiphongContainer.Height >= 175)
+                menuloaiphongContainer.Height += 10;
+                if (menuloaiphongContainer.Height >= 230)
                 {
                     menuloaiphongTransition.Stop();
                     menuloaiphongExpand = true;
@@ -64,13 +68,121 @@ namespace QLKS
             }
             else
             {
-                menuLoaiphongContainer.Height -= 25;
-                if (menuLoaiphongContainer.Height <= 50)
+                menuloaiphongContainer.Height -= 5;
+                if (menuloaiphongContainer.Height <= 45)
                 {
                     menuloaiphongTransition.Stop();
                     menuloaiphongExpand = false;
                 }
             }
+        }
+
+        private void btnDichvuvaKho_Click(object sender, EventArgs e)
+        {
+            menudichvuvakhoTransition.Start();
+        }
+
+        private void menudichvuvakhoTransition_Tick(object sender, EventArgs e)
+        {
+            if (menudichvuExpand == false)
+            {
+                menudichvuContainer.Height += 15;
+                if (menudichvuContainer.Height >= 175)
+                {
+                    menudichvuvakhoTransition.Stop();
+                    menudichvuExpand = true;
+                }
+            }
+            else
+            {
+                menudichvuContainer.Height -= 5;
+                if (menudichvuContainer.Height <= 45)
+                {
+                    menudichvuvakhoTransition.Stop();
+                    menudichvuExpand = false;
+                }
+            }
+        }
+
+        private void menucongnoTransition_Tick(object sender, EventArgs e)
+        {
+            if (menucongnoExpand == false)
+            {
+                menucongnoContainer.Height += 15;
+                if (menucongnoContainer.Height >= 175)
+                {
+                    menucongnoTransition.Stop();
+                    menucongnoExpand = true;
+                }
+            }
+            else
+            {
+                menucongnoContainer.Height -= 5;
+                if (menucongnoContainer.Height <=45)
+                {
+                    menucongnoTransition.Stop();
+                    menucongnoExpand = false;
+                }
+            }
+        }
+
+        private void btnCongno_Click(object sender, EventArgs e)
+        {
+            menucongnoTransition.Start();
+        }
+
+        private void btntienchivaphieuthu_Click(object sender, EventArgs e)
+        {
+            menutienchiTransition.Start();
+        }
+
+        private void menutienchivaphieuthuTransition_Tick(object sender, EventArgs e)
+        {
+            if(menutienchiphieuthuExpand == false)
+            {
+                menutienchivaphieuthuContainer.Height += 15;
+                if (menutienchivaphieuthuContainer.Height >= 150)
+                {
+                    menutienchiTransition.Stop();
+                    menutienchiphieuthuExpand = true;
+                }
+            }
+            else
+            {
+                menutienchivaphieuthuContainer.Height -= 5;
+                if (menutienchivaphieuthuContainer.Height <=45)
+                {
+                    menutienchiTransition.Stop();
+                    menutienchiphieuthuExpand=false;
+                }
+            }
+        }
+
+        private void sidebarTransition_Tick(object sender, EventArgs e)
+        {
+            if (sidebarExpand == false)
+            {
+                sidebar.Width -= 10;
+                if (sidebar.Width <= 50)
+                {
+                    sidebarTransition.Stop();
+                    sidebarExpand = true;    
+                }
+            }
+            else
+            {
+                sidebar.Width += 10;
+                if(sidebar.Width >= 260)
+                {
+                    sidebarTransition.Stop();
+                    sidebarExpand = false;
+                }
+            }
+        }
+
+        private void sidebar_Click(object sender, EventArgs e)
+        {
+            sidebarTransition.Start();
         }
     }
 }
