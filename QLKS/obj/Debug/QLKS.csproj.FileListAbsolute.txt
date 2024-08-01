@@ -20,3 +20,8 @@ E:\QLKS_HUIT\QLKS\obj\Debug\QLKS.FormMain.resources
 E:\QLKS_HUIT\QLKS\bin\Debug\themControls.dll
 E:\QLKS_HUIT\QLKS\bin\Debug\themControls.pdb
 E:\QLKS_HUIT\QLKS\obj\Debug\QLKS.csproj.Up2Date
+D:\Github\Phát triển PM\QLKS_HUIT\QLKS\bin\Debug\themControls.dll
+D:\Github\Phát triển PM\QLKS_HUIT\QLKS\bin\Debug\themControls.pdb
+D:\Github\Phát triển PM\QLKS_HUIT\QLKS\obj\Debug\QLKS.FormMain.resources
+D:\Github\Phát triển PM\QLKS_HUIT\QLKS\obj\Debug\QLKS.csproj.CopyComplete
+D:\Github\Phát triển PM\QLKS_HUIT\QLKS\obj\Debug\QLKS.FormDangNhap.resources

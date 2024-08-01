@@ -32,7 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.menubtn = new themControls.PictureBoxchinhKichThuoc();
             this.sidebar = new System.Windows.Forms.FlowLayoutPanel();
             this.btnSodokhachsan = new System.Windows.Forms.Button();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
@@ -91,8 +90,8 @@
             this.menucongnoTransition = new System.Windows.Forms.Timer(this.components);
             this.menutienchiTransition = new System.Windows.Forms.Timer(this.components);
             this.sidebarTransition = new System.Windows.Forms.Timer(this.components);
+            this.menubtn = new themControls.PictureBoxchinhKichThuoc();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.menubtn)).BeginInit();
             this.sidebar.SuspendLayout();
             this.menukhachsanContainer.SuspendLayout();
             this.menuloaiphongContainer.SuspendLayout();
@@ -104,6 +103,7 @@
             this.menukhachhangContainer.SuspendLayout();
             this.menunhanvienContainer.SuspendLayout();
             this.menuhotroContainer.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.menubtn)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -126,17 +126,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1037, 44);
             this.panel1.TabIndex = 3;
-            // 
-            // menubtn
-            // 
-            this.menubtn.Image = ((System.Drawing.Image)(resources.GetObject("menubtn.Image")));
-            this.menubtn.Location = new System.Drawing.Point(0, -3);
-            this.menubtn.Name = "menubtn";
-            this.menubtn.Size = new System.Drawing.Size(80, 44);
-            this.menubtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.menubtn.TabIndex = 4;
-            this.menubtn.TabStop = false;
-            this.menubtn.Click += new System.EventHandler(this.sidebar_Click);
             // 
             // sidebar
             // 
@@ -1009,18 +998,29 @@
             this.sidebarTransition.Interval = 10;
             this.sidebarTransition.Tick += new System.EventHandler(this.sidebarTransition_Tick);
             // 
+            // menubtn
+            // 
+            this.menubtn.Image = ((System.Drawing.Image)(resources.GetObject("menubtn.Image")));
+            this.menubtn.Location = new System.Drawing.Point(0, -3);
+            this.menubtn.Name = "menubtn";
+            this.menubtn.Size = new System.Drawing.Size(80, 44);
+            this.menubtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.menubtn.TabIndex = 4;
+            this.menubtn.TabStop = false;
+            this.menubtn.Click += new System.EventHandler(this.sidebar_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(1037, 577);
             this.Controls.Add(this.sidebar);
             this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormMain";
             this.Text = "frmMain";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.menubtn)).EndInit();
             this.sidebar.ResumeLayout(false);
             this.menukhachsanContainer.ResumeLayout(false);
             this.menuloaiphongContainer.ResumeLayout(false);
@@ -1032,6 +1032,7 @@
             this.menukhachhangContainer.ResumeLayout(false);
             this.menunhanvienContainer.ResumeLayout(false);
             this.menuhotroContainer.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.menubtn)).EndInit();
             this.ResumeLayout(false);
 
         }
