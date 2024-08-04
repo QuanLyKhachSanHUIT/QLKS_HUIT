@@ -13,4 +13,3 @@ D:\Github\Phát triển PM\QLKS_HUIT\themControls\obj\Debug\themControls.csproj.
 D:\Github\Phát triển PM\QLKS_HUIT\themControls\obj\Debug\themControls.csproj.CoreCompileInputs.cache
 D:\Github\Phát triển PM\QLKS_HUIT\themControls\obj\Debug\themControls.dll
 D:\Github\Phát triển PM\QLKS_HUIT\themControls\obj\Debug\themControls.pdb
-D:\Github\Phát triển PM\QLKS_HUIT\themControls\obj\Debug\themControls.csproj.AssemblyReference.cache

@@ -184,5 +184,18 @@ namespace QLKS
         {
             sidebarTransition.Start();
         }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            // Hiển thị hộp thoại xác nhận
+            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn thoát không?", "Xác nhận thoát", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                // Nếu người dùng chọn Yes, đóng form đăng nhập
+                this.Close();
+            }
+            // Nếu người dùng chọn No, không thực hiện hành động gì
+        }
     }
 }

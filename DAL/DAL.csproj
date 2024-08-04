@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D046E6C2-F942-4A6A-BBFF-27182B8DC6EF}</ProjectGuid>
+    <ProjectGuid>{565FB8A6-E83E-4BB8-A4A8-581C5F9E0CDB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DAL</RootNamespace>
@@ -31,7 +31,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DTO">
+      <HintPath>..\DTO\bin\Debug\DTO.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -42,13 +46,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="DS_QLKS.cs">
-      <DependentUpon>DS_QLKS.xsd</DependentUpon>
+    <Compile Include="ConnectionManager.cs" />
+    <Compile Include="DatasetQLKS.cs">
+      <DependentUpon>DatasetQLKS.xsd</DependentUpon>
     </Compile>
-    <Compile Include="DS_QLKS.Designer.cs">
+    <Compile Include="DatasetQLKS.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DS_QLKS.xsd</DependentUpon>
+      <DependentUpon>DatasetQLKS.xsd</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
@@ -59,16 +64,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="DS_QLKS.xsc">
-      <DependentUpon>DS_QLKS.xsd</DependentUpon>
+    <None Include="DatasetQLKS.xsc">
+      <DependentUpon>DatasetQLKS.xsd</DependentUpon>
     </None>
-    <None Include="DS_QLKS.xsd">
+    <None Include="DatasetQLKS.xsd">
       <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DS_QLKS.Designer.cs</LastGenOutput>
+      <LastGenOutput>DatasetQLKS.Designer.cs</LastGenOutput>
     </None>
-    <None Include="DS_QLKS.xss">
-      <DependentUpon>DS_QLKS.xsd</DependentUpon>
+    <None Include="DatasetQLKS.xss">
+      <DependentUpon>DatasetQLKS.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

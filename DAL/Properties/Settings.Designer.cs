@@ -26,11 +26,11 @@ namespace DAL.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=QUANGCUONG\\SQLEXPRESS;Initial Catalog=QuanLyKS;Integrated Security=Tr" +
-            "ue")]
-        public string QuanLyKSConnectionString {
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=QUANGCUONG\\SQLEXPRESS;Initial Catalog=HotelManagement;Integrated Secu" +
+            "rity=True")]
+        public string HotelManagementConnectionString {
             get {
-                return ((string)(this["QuanLyKSConnectionString"]));
+                return ((string)(this["HotelManagementConnectionString"]));
             }
         }
     }

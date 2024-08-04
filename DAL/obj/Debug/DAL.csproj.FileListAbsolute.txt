@@ -1,6 +1,10 @@
+D:\Github\Phát triển PM\QLKS_HUIT\DAL\bin\Debug\DAL.dll.config
 D:\Github\Phát triển PM\QLKS_HUIT\DAL\bin\Debug\DAL.dll
 D:\Github\Phát triển PM\QLKS_HUIT\DAL\bin\Debug\DAL.pdb
 D:\Github\Phát triển PM\QLKS_HUIT\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
 D:\Github\Phát triển PM\QLKS_HUIT\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 D:\Github\Phát triển PM\QLKS_HUIT\DAL\obj\Debug\DAL.dll
 D:\Github\Phát triển PM\QLKS_HUIT\DAL\obj\Debug\DAL.pdb
+D:\Github\Phát triển PM\QLKS_HUIT\DAL\bin\Debug\DTO.dll
+D:\Github\Phát triển PM\QLKS_HUIT\DAL\bin\Debug\DTO.pdb
+D:\Github\Phát triển PM\QLKS_HUIT\DAL\obj\Debug\DAL.csproj.CopyComplete

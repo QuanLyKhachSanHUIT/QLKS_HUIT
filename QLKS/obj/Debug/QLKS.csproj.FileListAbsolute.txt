@@ -25,3 +25,11 @@ D:\Github\Phát triển PM\QLKS_HUIT\QLKS\bin\Debug\themControls.pdb
 D:\Github\Phát triển PM\QLKS_HUIT\QLKS\obj\Debug\QLKS.FormMain.resources
 D:\Github\Phát triển PM\QLKS_HUIT\QLKS\obj\Debug\QLKS.csproj.CopyComplete
 D:\Github\Phát triển PM\QLKS_HUIT\QLKS\obj\Debug\QLKS.FormDangNhap.resources
+D:\Github\Phát triển PM\QLKS_HUIT\QLKS\bin\Debug\BLL.dll
+D:\Github\Phát triển PM\QLKS_HUIT\QLKS\bin\Debug\DAL.dll
+D:\Github\Phát triển PM\QLKS_HUIT\QLKS\bin\Debug\BLL.pdb
+D:\Github\Phát triển PM\QLKS_HUIT\QLKS\bin\Debug\DAL.pdb
+D:\Github\Phát triển PM\QLKS_HUIT\QLKS\bin\Debug\DTO.dll
+D:\Github\Phát triển PM\QLKS_HUIT\QLKS\bin\Debug\DTO.pdb
+D:\Github\Phát triển PM\QLKS_HUIT\QLKS\bin\Debug\DAL.dll.config
+D:\Github\Phát triển PM\QLKS_HUIT\QLKS\obj\Debug\QLKS.FormAD.resources

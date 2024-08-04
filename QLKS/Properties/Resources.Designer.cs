@@ -73,6 +73,26 @@ namespace QLKS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap caidat {
+            get {
+                object obj = ResourceManager.GetObject("caidat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap caidat1 {
+            get {
+                object obj = ResourceManager.GetObject("caidat1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap nhanvien {
             get {
                 object obj = ResourceManager.GetObject("nhanvien", resourceCulture);
