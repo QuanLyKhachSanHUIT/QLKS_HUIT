@@ -1,0 +1,6 @@
+D:\Github\Phát triển PM\QLKS_HUIT\BLL\bin\Debug\BLL.dll
+D:\Github\Phát triển PM\QLKS_HUIT\BLL\bin\Debug\BLL.pdb
+D:\Github\Phát triển PM\QLKS_HUIT\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\Github\Phát triển PM\QLKS_HUIT\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\Github\Phát triển PM\QLKS_HUIT\BLL\obj\Debug\BLL.dll
+D:\Github\Phát triển PM\QLKS_HUIT\BLL\obj\Debug\BLL.pdb
