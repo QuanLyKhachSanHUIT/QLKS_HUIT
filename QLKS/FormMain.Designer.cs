@@ -32,68 +32,67 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.menubtn = new themControls.PictureBoxchinhKichThuoc();
+            this.button12 = new System.Windows.Forms.Button();
             this.sidebar = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnSodokhachsan = new System.Windows.Forms.Button();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.menukhachsanContainer = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnkhachsan1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.menuloaiphongContainer = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnLoaiphongvaCaidat = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
             this.menudichvuContainer = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnDichvuvaKho = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
             this.menucongnoContainer = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnCongno = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
             this.menutienchivaphieuthuContainer = new System.Windows.Forms.FlowLayoutPanel();
-            this.btntienchivaphieuthu = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
             this.menudoanhthuContainer = new System.Windows.Forms.FlowLayoutPanel();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
             this.menuthongkeContainer = new System.Windows.Forms.FlowLayoutPanel();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
             this.menukhachhangContainer = new System.Windows.Forms.FlowLayoutPanel();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
             this.menunhanvienContainer = new System.Windows.Forms.FlowLayoutPanel();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button29 = new System.Windows.Forms.Button();
-            this.button30 = new System.Windows.Forms.Button();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button32 = new System.Windows.Forms.Button();
             this.menuhotroContainer = new System.Windows.Forms.FlowLayoutPanel();
-            this.button33 = new System.Windows.Forms.Button();
-            this.button34 = new System.Windows.Forms.Button();
-            this.button35 = new System.Windows.Forms.Button();
             this.menukhachsanTransition = new System.Windows.Forms.Timer(this.components);
             this.menuloaiphongTransition = new System.Windows.Forms.Timer(this.components);
             this.menudichvuvakhoTransition = new System.Windows.Forms.Timer(this.components);
             this.menucongnoTransition = new System.Windows.Forms.Timer(this.components);
             this.menutienchiTransition = new System.Windows.Forms.Timer(this.components);
             this.sidebarTransition = new System.Windows.Forms.Timer(this.components);
-            this.button12 = new System.Windows.Forms.Button();
+            this.btnSodokhachsan = new System.Windows.Forms.Button();
+            this.btnkhachsan1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.btnLoaiphongvaCaidat = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.btnDichvuvaKho = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.btnCongno = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.btntienchivaphieuthu = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
+            this.button19 = new System.Windows.Forms.Button();
+            this.button20 = new System.Windows.Forms.Button();
+            this.button21 = new System.Windows.Forms.Button();
+            this.button22 = new System.Windows.Forms.Button();
+            this.button23 = new System.Windows.Forms.Button();
+            this.button24 = new System.Windows.Forms.Button();
+            this.button25 = new System.Windows.Forms.Button();
+            this.button26 = new System.Windows.Forms.Button();
+            this.button28 = new System.Windows.Forms.Button();
+            this.button27 = new System.Windows.Forms.Button();
+            this.button29 = new System.Windows.Forms.Button();
+            this.button30 = new System.Windows.Forms.Button();
+            this.button31 = new System.Windows.Forms.Button();
+            this.button32 = new System.Windows.Forms.Button();
+            this.button33 = new System.Windows.Forms.Button();
+            this.button34 = new System.Windows.Forms.Button();
+            this.button35 = new System.Windows.Forms.Button();
+            this.menubtn = new themControls.PictureBoxchinhKichThuoc();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.menubtn)).BeginInit();
             this.sidebar.SuspendLayout();
             this.menukhachsanContainer.SuspendLayout();
             this.menuloaiphongContainer.SuspendLayout();
@@ -105,6 +104,7 @@
             this.menukhachhangContainer.SuspendLayout();
             this.menunhanvienContainer.SuspendLayout();
             this.menuhotroContainer.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.menubtn)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -129,16 +129,15 @@
             this.panel1.Size = new System.Drawing.Size(1037, 44);
             this.panel1.TabIndex = 3;
             // 
-            // menubtn
+            // button12
             // 
-            this.menubtn.Image = ((System.Drawing.Image)(resources.GetObject("menubtn.Image")));
-            this.menubtn.Location = new System.Drawing.Point(0, -3);
-            this.menubtn.Name = "menubtn";
-            this.menubtn.Size = new System.Drawing.Size(80, 44);
-            this.menubtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.menubtn.TabIndex = 4;
-            this.menubtn.TabStop = false;
-            this.menubtn.Click += new System.EventHandler(this.sidebar_Click);
+            this.button12.Location = new System.Drawing.Point(893, 13);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(75, 23);
+            this.button12.TabIndex = 5;
+            this.button12.Text = "Thoát";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // sidebar
             // 
@@ -159,23 +158,6 @@
             this.sidebar.Name = "sidebar";
             this.sidebar.Size = new System.Drawing.Size(260, 533);
             this.sidebar.TabIndex = 5;
-            // 
-            // btnSodokhachsan
-            // 
-            this.btnSodokhachsan.BackColor = System.Drawing.Color.Black;
-            this.btnSodokhachsan.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSodokhachsan.ForeColor = System.Drawing.Color.White;
-            this.btnSodokhachsan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSodokhachsan.ImageIndex = 0;
-            this.btnSodokhachsan.ImageList = this.imageList1;
-            this.btnSodokhachsan.Location = new System.Drawing.Point(0, 0);
-            this.btnSodokhachsan.Margin = new System.Windows.Forms.Padding(0);
-            this.btnSodokhachsan.Name = "btnSodokhachsan";
-            this.btnSodokhachsan.Size = new System.Drawing.Size(254, 55);
-            this.btnSodokhachsan.TabIndex = 8;
-            this.btnSodokhachsan.Text = "Sơ đồ Khách sạn";
-            this.btnSodokhachsan.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnSodokhachsan.UseVisualStyleBackColor = false;
             // 
             // imageList1
             // 
@@ -210,6 +192,167 @@
             this.menukhachsanContainer.Name = "menukhachsanContainer";
             this.menukhachsanContainer.Size = new System.Drawing.Size(258, 45);
             this.menukhachsanContainer.TabIndex = 11;
+            // 
+            // menuloaiphongContainer
+            // 
+            this.menuloaiphongContainer.BackColor = System.Drawing.Color.Silver;
+            this.menuloaiphongContainer.Controls.Add(this.btnLoaiphongvaCaidat);
+            this.menuloaiphongContainer.Controls.Add(this.button5);
+            this.menuloaiphongContainer.Controls.Add(this.button6);
+            this.menuloaiphongContainer.Controls.Add(this.button7);
+            this.menuloaiphongContainer.Location = new System.Drawing.Point(0, 106);
+            this.menuloaiphongContainer.Margin = new System.Windows.Forms.Padding(0);
+            this.menuloaiphongContainer.Name = "menuloaiphongContainer";
+            this.menuloaiphongContainer.Size = new System.Drawing.Size(258, 45);
+            this.menuloaiphongContainer.TabIndex = 12;
+            // 
+            // menudichvuContainer
+            // 
+            this.menudichvuContainer.Controls.Add(this.btnDichvuvaKho);
+            this.menudichvuContainer.Controls.Add(this.button8);
+            this.menudichvuContainer.Controls.Add(this.button9);
+            this.menudichvuContainer.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menudichvuContainer.Location = new System.Drawing.Point(3, 154);
+            this.menudichvuContainer.Name = "menudichvuContainer";
+            this.menudichvuContainer.Size = new System.Drawing.Size(258, 45);
+            this.menudichvuContainer.TabIndex = 6;
+            // 
+            // menucongnoContainer
+            // 
+            this.menucongnoContainer.BackColor = System.Drawing.Color.Silver;
+            this.menucongnoContainer.Controls.Add(this.btnCongno);
+            this.menucongnoContainer.Controls.Add(this.button10);
+            this.menucongnoContainer.Controls.Add(this.button11);
+            this.menucongnoContainer.Location = new System.Drawing.Point(0, 202);
+            this.menucongnoContainer.Margin = new System.Windows.Forms.Padding(0);
+            this.menucongnoContainer.Name = "menucongnoContainer";
+            this.menucongnoContainer.Size = new System.Drawing.Size(258, 45);
+            this.menucongnoContainer.TabIndex = 17;
+            // 
+            // menutienchivaphieuthuContainer
+            // 
+            this.menutienchivaphieuthuContainer.BackColor = System.Drawing.Color.Silver;
+            this.menutienchivaphieuthuContainer.Controls.Add(this.btntienchivaphieuthu);
+            this.menutienchivaphieuthuContainer.Controls.Add(this.button1);
+            this.menutienchivaphieuthuContainer.Controls.Add(this.button13);
+            this.menutienchivaphieuthuContainer.Location = new System.Drawing.Point(0, 247);
+            this.menutienchivaphieuthuContainer.Margin = new System.Windows.Forms.Padding(0);
+            this.menutienchivaphieuthuContainer.Name = "menutienchivaphieuthuContainer";
+            this.menutienchivaphieuthuContainer.Size = new System.Drawing.Size(258, 45);
+            this.menutienchivaphieuthuContainer.TabIndex = 18;
+            // 
+            // menudoanhthuContainer
+            // 
+            this.menudoanhthuContainer.BackColor = System.Drawing.Color.Silver;
+            this.menudoanhthuContainer.Controls.Add(this.button14);
+            this.menudoanhthuContainer.Controls.Add(this.button15);
+            this.menudoanhthuContainer.Controls.Add(this.button16);
+            this.menudoanhthuContainer.Controls.Add(this.button17);
+            this.menudoanhthuContainer.Location = new System.Drawing.Point(0, 292);
+            this.menudoanhthuContainer.Margin = new System.Windows.Forms.Padding(0);
+            this.menudoanhthuContainer.Name = "menudoanhthuContainer";
+            this.menudoanhthuContainer.Size = new System.Drawing.Size(258, 45);
+            this.menudoanhthuContainer.TabIndex = 19;
+            // 
+            // menuthongkeContainer
+            // 
+            this.menuthongkeContainer.BackColor = System.Drawing.Color.Silver;
+            this.menuthongkeContainer.Controls.Add(this.button18);
+            this.menuthongkeContainer.Controls.Add(this.button19);
+            this.menuthongkeContainer.Controls.Add(this.button20);
+            this.menuthongkeContainer.Controls.Add(this.button21);
+            this.menuthongkeContainer.Controls.Add(this.button22);
+            this.menuthongkeContainer.Location = new System.Drawing.Point(0, 337);
+            this.menuthongkeContainer.Margin = new System.Windows.Forms.Padding(0);
+            this.menuthongkeContainer.Name = "menuthongkeContainer";
+            this.menuthongkeContainer.Size = new System.Drawing.Size(258, 45);
+            this.menuthongkeContainer.TabIndex = 20;
+            // 
+            // menukhachhangContainer
+            // 
+            this.menukhachhangContainer.BackColor = System.Drawing.Color.Silver;
+            this.menukhachhangContainer.Controls.Add(this.button23);
+            this.menukhachhangContainer.Controls.Add(this.button24);
+            this.menukhachhangContainer.Controls.Add(this.button25);
+            this.menukhachhangContainer.Controls.Add(this.button26);
+            this.menukhachhangContainer.Controls.Add(this.button28);
+            this.menukhachhangContainer.Location = new System.Drawing.Point(0, 382);
+            this.menukhachhangContainer.Margin = new System.Windows.Forms.Padding(0);
+            this.menukhachhangContainer.Name = "menukhachhangContainer";
+            this.menukhachhangContainer.Size = new System.Drawing.Size(258, 45);
+            this.menukhachhangContainer.TabIndex = 21;
+            // 
+            // menunhanvienContainer
+            // 
+            this.menunhanvienContainer.BackColor = System.Drawing.Color.Silver;
+            this.menunhanvienContainer.Controls.Add(this.button27);
+            this.menunhanvienContainer.Controls.Add(this.button29);
+            this.menunhanvienContainer.Controls.Add(this.button30);
+            this.menunhanvienContainer.Controls.Add(this.button31);
+            this.menunhanvienContainer.Controls.Add(this.button32);
+            this.menunhanvienContainer.Location = new System.Drawing.Point(0, 427);
+            this.menunhanvienContainer.Margin = new System.Windows.Forms.Padding(0);
+            this.menunhanvienContainer.Name = "menunhanvienContainer";
+            this.menunhanvienContainer.Size = new System.Drawing.Size(258, 45);
+            this.menunhanvienContainer.TabIndex = 22;
+            // 
+            // menuhotroContainer
+            // 
+            this.menuhotroContainer.Controls.Add(this.button33);
+            this.menuhotroContainer.Controls.Add(this.button34);
+            this.menuhotroContainer.Controls.Add(this.button35);
+            this.menuhotroContainer.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuhotroContainer.Location = new System.Drawing.Point(3, 475);
+            this.menuhotroContainer.Name = "menuhotroContainer";
+            this.menuhotroContainer.Size = new System.Drawing.Size(258, 45);
+            this.menuhotroContainer.TabIndex = 17;
+            // 
+            // menukhachsanTransition
+            // 
+            this.menukhachsanTransition.Interval = 10;
+            this.menukhachsanTransition.Tick += new System.EventHandler(this.khachsanTransition_Tick);
+            // 
+            // menuloaiphongTransition
+            // 
+            this.menuloaiphongTransition.Interval = 10;
+            this.menuloaiphongTransition.Tick += new System.EventHandler(this.menuloaiphongTransition_Tick);
+            // 
+            // menudichvuvakhoTransition
+            // 
+            this.menudichvuvakhoTransition.Interval = 10;
+            this.menudichvuvakhoTransition.Tick += new System.EventHandler(this.menudichvuvakhoTransition_Tick);
+            // 
+            // menucongnoTransition
+            // 
+            this.menucongnoTransition.Interval = 10;
+            this.menucongnoTransition.Tick += new System.EventHandler(this.menucongnoTransition_Tick);
+            // 
+            // menutienchiTransition
+            // 
+            this.menutienchiTransition.Interval = 10;
+            this.menutienchiTransition.Tick += new System.EventHandler(this.menutienchivaphieuthuTransition_Tick);
+            // 
+            // sidebarTransition
+            // 
+            this.sidebarTransition.Interval = 10;
+            this.sidebarTransition.Tick += new System.EventHandler(this.sidebarTransition_Tick);
+            // 
+            // btnSodokhachsan
+            // 
+            this.btnSodokhachsan.BackColor = System.Drawing.Color.Black;
+            this.btnSodokhachsan.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSodokhachsan.ForeColor = System.Drawing.Color.White;
+            this.btnSodokhachsan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSodokhachsan.ImageIndex = 0;
+            this.btnSodokhachsan.ImageList = this.imageList1;
+            this.btnSodokhachsan.Location = new System.Drawing.Point(0, 0);
+            this.btnSodokhachsan.Margin = new System.Windows.Forms.Padding(0);
+            this.btnSodokhachsan.Name = "btnSodokhachsan";
+            this.btnSodokhachsan.Size = new System.Drawing.Size(254, 55);
+            this.btnSodokhachsan.TabIndex = 8;
+            this.btnSodokhachsan.Text = "Sơ đồ Khách sạn";
+            this.btnSodokhachsan.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSodokhachsan.UseVisualStyleBackColor = false;
             // 
             // btnkhachsan1
             // 
@@ -277,19 +420,6 @@
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button4.UseVisualStyleBackColor = false;
             // 
-            // menuloaiphongContainer
-            // 
-            this.menuloaiphongContainer.BackColor = System.Drawing.Color.Silver;
-            this.menuloaiphongContainer.Controls.Add(this.btnLoaiphongvaCaidat);
-            this.menuloaiphongContainer.Controls.Add(this.button5);
-            this.menuloaiphongContainer.Controls.Add(this.button6);
-            this.menuloaiphongContainer.Controls.Add(this.button7);
-            this.menuloaiphongContainer.Location = new System.Drawing.Point(0, 106);
-            this.menuloaiphongContainer.Margin = new System.Windows.Forms.Padding(0);
-            this.menuloaiphongContainer.Name = "menuloaiphongContainer";
-            this.menuloaiphongContainer.Size = new System.Drawing.Size(258, 45);
-            this.menuloaiphongContainer.TabIndex = 12;
-            // 
             // btnLoaiphongvaCaidat
             // 
             this.btnLoaiphongvaCaidat.BackColor = System.Drawing.Color.Black;
@@ -356,17 +486,6 @@
             this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button7.UseVisualStyleBackColor = false;
             // 
-            // menudichvuContainer
-            // 
-            this.menudichvuContainer.Controls.Add(this.btnDichvuvaKho);
-            this.menudichvuContainer.Controls.Add(this.button8);
-            this.menudichvuContainer.Controls.Add(this.button9);
-            this.menudichvuContainer.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menudichvuContainer.Location = new System.Drawing.Point(3, 154);
-            this.menudichvuContainer.Name = "menudichvuContainer";
-            this.menudichvuContainer.Size = new System.Drawing.Size(258, 45);
-            this.menudichvuContainer.TabIndex = 6;
-            // 
             // btnDichvuvaKho
             // 
             this.btnDichvuvaKho.BackColor = System.Drawing.Color.Black;
@@ -417,18 +536,6 @@
             this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button9.UseVisualStyleBackColor = false;
             // 
-            // menucongnoContainer
-            // 
-            this.menucongnoContainer.BackColor = System.Drawing.Color.Silver;
-            this.menucongnoContainer.Controls.Add(this.btnCongno);
-            this.menucongnoContainer.Controls.Add(this.button10);
-            this.menucongnoContainer.Controls.Add(this.button11);
-            this.menucongnoContainer.Location = new System.Drawing.Point(0, 202);
-            this.menucongnoContainer.Margin = new System.Windows.Forms.Padding(0);
-            this.menucongnoContainer.Name = "menucongnoContainer";
-            this.menucongnoContainer.Size = new System.Drawing.Size(258, 45);
-            this.menucongnoContainer.TabIndex = 17;
-            // 
             // btnCongno
             // 
             this.btnCongno.BackColor = System.Drawing.Color.Black;
@@ -478,18 +585,6 @@
             this.button11.Text = "Danh sách HĐ nợ";
             this.button11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button11.UseVisualStyleBackColor = false;
-            // 
-            // menutienchivaphieuthuContainer
-            // 
-            this.menutienchivaphieuthuContainer.BackColor = System.Drawing.Color.Silver;
-            this.menutienchivaphieuthuContainer.Controls.Add(this.btntienchivaphieuthu);
-            this.menutienchivaphieuthuContainer.Controls.Add(this.button1);
-            this.menutienchivaphieuthuContainer.Controls.Add(this.button13);
-            this.menutienchivaphieuthuContainer.Location = new System.Drawing.Point(0, 247);
-            this.menutienchivaphieuthuContainer.Margin = new System.Windows.Forms.Padding(0);
-            this.menutienchivaphieuthuContainer.Name = "menutienchivaphieuthuContainer";
-            this.menutienchivaphieuthuContainer.Size = new System.Drawing.Size(258, 45);
-            this.menutienchivaphieuthuContainer.TabIndex = 18;
             // 
             // btntienchivaphieuthu
             // 
@@ -542,19 +637,6 @@
             this.button13.Text = "Quản lý phiếu chi";
             this.button13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button13.UseVisualStyleBackColor = false;
-            // 
-            // menudoanhthuContainer
-            // 
-            this.menudoanhthuContainer.BackColor = System.Drawing.Color.Silver;
-            this.menudoanhthuContainer.Controls.Add(this.button14);
-            this.menudoanhthuContainer.Controls.Add(this.button15);
-            this.menudoanhthuContainer.Controls.Add(this.button16);
-            this.menudoanhthuContainer.Controls.Add(this.button17);
-            this.menudoanhthuContainer.Location = new System.Drawing.Point(0, 292);
-            this.menudoanhthuContainer.Margin = new System.Windows.Forms.Padding(0);
-            this.menudoanhthuContainer.Name = "menudoanhthuContainer";
-            this.menudoanhthuContainer.Size = new System.Drawing.Size(258, 45);
-            this.menudoanhthuContainer.TabIndex = 19;
             // 
             // button14
             // 
@@ -623,20 +705,6 @@
             this.button17.Text = "Doanh thu gần đây";
             this.button17.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button17.UseVisualStyleBackColor = false;
-            // 
-            // menuthongkeContainer
-            // 
-            this.menuthongkeContainer.BackColor = System.Drawing.Color.Silver;
-            this.menuthongkeContainer.Controls.Add(this.button18);
-            this.menuthongkeContainer.Controls.Add(this.button19);
-            this.menuthongkeContainer.Controls.Add(this.button20);
-            this.menuthongkeContainer.Controls.Add(this.button21);
-            this.menuthongkeContainer.Controls.Add(this.button22);
-            this.menuthongkeContainer.Location = new System.Drawing.Point(0, 337);
-            this.menuthongkeContainer.Margin = new System.Windows.Forms.Padding(0);
-            this.menuthongkeContainer.Name = "menuthongkeContainer";
-            this.menuthongkeContainer.Size = new System.Drawing.Size(258, 45);
-            this.menuthongkeContainer.TabIndex = 20;
             // 
             // button18
             // 
@@ -723,20 +791,6 @@
             this.button22.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button22.UseVisualStyleBackColor = false;
             // 
-            // menukhachhangContainer
-            // 
-            this.menukhachhangContainer.BackColor = System.Drawing.Color.Silver;
-            this.menukhachhangContainer.Controls.Add(this.button23);
-            this.menukhachhangContainer.Controls.Add(this.button24);
-            this.menukhachhangContainer.Controls.Add(this.button25);
-            this.menukhachhangContainer.Controls.Add(this.button26);
-            this.menukhachhangContainer.Controls.Add(this.button28);
-            this.menukhachhangContainer.Location = new System.Drawing.Point(0, 382);
-            this.menukhachhangContainer.Margin = new System.Windows.Forms.Padding(0);
-            this.menukhachhangContainer.Name = "menukhachhangContainer";
-            this.menukhachhangContainer.Size = new System.Drawing.Size(258, 45);
-            this.menukhachhangContainer.TabIndex = 21;
-            // 
             // button23
             // 
             this.button23.BackColor = System.Drawing.Color.Black;
@@ -822,20 +876,6 @@
             this.button28.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button28.UseVisualStyleBackColor = false;
             // 
-            // menunhanvienContainer
-            // 
-            this.menunhanvienContainer.BackColor = System.Drawing.Color.Silver;
-            this.menunhanvienContainer.Controls.Add(this.button27);
-            this.menunhanvienContainer.Controls.Add(this.button29);
-            this.menunhanvienContainer.Controls.Add(this.button30);
-            this.menunhanvienContainer.Controls.Add(this.button31);
-            this.menunhanvienContainer.Controls.Add(this.button32);
-            this.menunhanvienContainer.Location = new System.Drawing.Point(0, 427);
-            this.menunhanvienContainer.Margin = new System.Windows.Forms.Padding(0);
-            this.menunhanvienContainer.Name = "menunhanvienContainer";
-            this.menunhanvienContainer.Size = new System.Drawing.Size(258, 45);
-            this.menunhanvienContainer.TabIndex = 22;
-            // 
             // button27
             // 
             this.button27.BackColor = System.Drawing.Color.Black;
@@ -852,6 +892,7 @@
             this.button27.Text = "Nhân viên";
             this.button27.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button27.UseVisualStyleBackColor = false;
+            this.button27.Click += new System.EventHandler(this.button27_Click);
             // 
             // button29
             // 
@@ -921,17 +962,6 @@
             this.button32.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button32.UseVisualStyleBackColor = false;
             // 
-            // menuhotroContainer
-            // 
-            this.menuhotroContainer.Controls.Add(this.button33);
-            this.menuhotroContainer.Controls.Add(this.button34);
-            this.menuhotroContainer.Controls.Add(this.button35);
-            this.menuhotroContainer.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menuhotroContainer.Location = new System.Drawing.Point(3, 475);
-            this.menuhotroContainer.Name = "menuhotroContainer";
-            this.menuhotroContainer.Size = new System.Drawing.Size(258, 45);
-            this.menuhotroContainer.TabIndex = 17;
-            // 
             // button33
             // 
             this.button33.BackColor = System.Drawing.Color.Black;
@@ -981,45 +1011,16 @@
             this.button35.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button35.UseVisualStyleBackColor = false;
             // 
-            // menukhachsanTransition
+            // menubtn
             // 
-            this.menukhachsanTransition.Interval = 10;
-            this.menukhachsanTransition.Tick += new System.EventHandler(this.khachsanTransition_Tick);
-            // 
-            // menuloaiphongTransition
-            // 
-            this.menuloaiphongTransition.Interval = 10;
-            this.menuloaiphongTransition.Tick += new System.EventHandler(this.menuloaiphongTransition_Tick);
-            // 
-            // menudichvuvakhoTransition
-            // 
-            this.menudichvuvakhoTransition.Interval = 10;
-            this.menudichvuvakhoTransition.Tick += new System.EventHandler(this.menudichvuvakhoTransition_Tick);
-            // 
-            // menucongnoTransition
-            // 
-            this.menucongnoTransition.Interval = 10;
-            this.menucongnoTransition.Tick += new System.EventHandler(this.menucongnoTransition_Tick);
-            // 
-            // menutienchiTransition
-            // 
-            this.menutienchiTransition.Interval = 10;
-            this.menutienchiTransition.Tick += new System.EventHandler(this.menutienchivaphieuthuTransition_Tick);
-            // 
-            // sidebarTransition
-            // 
-            this.sidebarTransition.Interval = 10;
-            this.sidebarTransition.Tick += new System.EventHandler(this.sidebarTransition_Tick);
-            // 
-            // button12
-            // 
-            this.button12.Location = new System.Drawing.Point(893, 13);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(75, 23);
-            this.button12.TabIndex = 5;
-            this.button12.Text = "Thoát";
-            this.button12.UseVisualStyleBackColor = true;
-            this.button12.Click += new System.EventHandler(this.button12_Click);
+            this.menubtn.Image = ((System.Drawing.Image)(resources.GetObject("menubtn.Image")));
+            this.menubtn.Location = new System.Drawing.Point(0, -3);
+            this.menubtn.Name = "menubtn";
+            this.menubtn.Size = new System.Drawing.Size(80, 44);
+            this.menubtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.menubtn.TabIndex = 4;
+            this.menubtn.TabStop = false;
+            this.menubtn.Click += new System.EventHandler(this.sidebar_Click);
             // 
             // FormMain
             // 
@@ -1033,7 +1034,6 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.menubtn)).EndInit();
             this.sidebar.ResumeLayout(false);
             this.menukhachsanContainer.ResumeLayout(false);
             this.menuloaiphongContainer.ResumeLayout(false);
@@ -1045,6 +1045,7 @@
             this.menukhachhangContainer.ResumeLayout(false);
             this.menunhanvienContainer.ResumeLayout(false);
             this.menuhotroContainer.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.menubtn)).EndInit();
             this.ResumeLayout(false);
 
         }

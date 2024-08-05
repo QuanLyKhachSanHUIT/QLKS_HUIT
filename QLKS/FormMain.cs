@@ -197,5 +197,11 @@ namespace QLKS
             }
             // Nếu người dùng chọn No, không thực hiện hành động gì
         }
+
+        private void button27_Click(object sender, EventArgs e)
+        {
+            FormNhanVien nv = new FormNhanVien();
+            nv.Show();
+        }
     }
 }

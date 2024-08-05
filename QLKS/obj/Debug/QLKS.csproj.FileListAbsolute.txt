@@ -33,3 +33,4 @@ D:\Github\Phát triển PM\QLKS_HUIT\QLKS\bin\Debug\DTO.dll
 D:\Github\Phát triển PM\QLKS_HUIT\QLKS\bin\Debug\DTO.pdb
 D:\Github\Phát triển PM\QLKS_HUIT\QLKS\bin\Debug\DAL.dll.config
 D:\Github\Phát triển PM\QLKS_HUIT\QLKS\obj\Debug\QLKS.FormAD.resources
+D:\Github\Phát triển PM\QLKS_HUIT\QLKS\obj\Debug\QLKS.FormNhanVien.resources
