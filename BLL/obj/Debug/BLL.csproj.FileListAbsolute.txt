@@ -9,3 +9,4 @@ D:\Github\Phát triển PM\QLKS_HUIT\BLL\bin\Debug\DAL.pdb
 D:\Github\Phát triển PM\QLKS_HUIT\BLL\bin\Debug\DAL.dll.config
 D:\Github\Phát triển PM\QLKS_HUIT\BLL\bin\Debug\DTO.pdb
 D:\Github\Phát triển PM\QLKS_HUIT\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\Github\Phát triển PM\QLKS_HUIT\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache

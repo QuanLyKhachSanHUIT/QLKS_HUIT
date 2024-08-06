@@ -7,16 +7,99 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BLL;
+using DAL;
+using DTO;
 
 namespace QLKS
 {
     public partial class FormMain : Form
     {
+        public RoomBLL roomBLL = new RoomBLL();
         public FormMain()
         {
+
             InitializeComponent();
+            this.Load += FormMain_Load;
 
         }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+            // Clear any existing controls
+            // Clear any existing controls
+            tableLayoutPanel1.Controls.Clear();
+            tableLayoutPanel1.RowCount = 0;
+            tableLayoutPanel1.ColumnCount = 4; // Adjust the number of columns as needed
+
+            // Define the dimensions for each label
+            int labelWidth = 200; // Set desired width
+            int labelHeight = 100; // Set desired height
+
+            // Define how many labels per row
+            int labelsPerRow = tableLayoutPanel1.ColumnCount;
+
+            // Retrieve room data
+            var rooms = roomBLL.GetRooms();
+
+            foreach (var room in rooms)
+            {
+                // Create a new label for each room
+                var roomLabel = new Label
+                {
+                    Text = $"ID: {room.RoomID}\nName: {room.RoomName}\nStatus: {room.StatusName}",
+                    AutoSize = false, // Disable auto-size
+                    Width = labelWidth, // Set fixed width
+                    Height = labelHeight, // Set fixed height
+                    BorderStyle = BorderStyle.FixedSingle,
+                    Padding = new Padding(5),
+                    Margin = new Padding(5),
+                    TextAlign = ContentAlignment.MiddleCenter, // Center text
+                };
+
+                // Set the background color based on the room status
+                switch (room.StatusName)
+                {
+                    case "Đang sử dụng":
+                        roomLabel.BackColor = Color.Red;
+                        break;
+                    case "Sẵn sàng":
+                        roomLabel.BackColor = Color.Lime;
+                        break;
+                    case "Đang sửa chữa":
+                        roomLabel.BackColor = Color.Yellow;
+                        break;
+                    case "Chưa dọn":
+                        roomLabel.BackColor = Color.Gray;
+                        break;
+                    default:
+                        roomLabel.BackColor = Color.White; // Default color
+                        break;
+                }
+                // Add the label to the TableLayoutPanel
+                tableLayoutPanel1.Controls.Add(roomLabel);
+
+                // Calculate the number of rows needed
+                int totalLabels = tableLayoutPanel1.Controls.Count;
+                int rows = (totalLabels + labelsPerRow - 1) / labelsPerRow; // Calculate rows needed
+                tableLayoutPanel1.RowCount = rows;
+
+                // Set row styles with fixed size
+                tableLayoutPanel1.RowStyles.Clear();
+                for (int i = 0; i < rows; i++)
+                {
+                    tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, labelHeight + 10)); // Row height + margin
+                }
+
+                // Update column styles with fixed size
+                tableLayoutPanel1.ColumnStyles.Clear();
+                for (int i = 0; i < tableLayoutPanel1.ColumnCount; i++)
+                {
+                    tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, labelWidth + 10)); // Column width + margin
+                }
+            }
+        }
+
         bool menukhachsanExpand = false;
         bool menuloaiphongExpand = false;
         bool menudichvuExpand = false;
