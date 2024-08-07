@@ -34,3 +34,4 @@ D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\themControls\obj\Debug\themControls.cspro
 D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\themControls\obj\Debug\themControls.csproj.CoreCompileInputs.cache
 D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\themControls\obj\Debug\themControls.dll
 D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\themControls\obj\Debug\themControls.pdb
+D:\Github\Phát triển PM\QLKS_HUIT\themControls\obj\Debug\themControls.csproj.AssemblyReference.cache

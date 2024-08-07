@@ -33,7 +33,6 @@ D:\Github\Phát triển PM\QLKS_HUIT\QLKS\bin\Debug\DTO.dll
 D:\Github\Phát triển PM\QLKS_HUIT\QLKS\bin\Debug\DTO.pdb
 D:\Github\Phát triển PM\QLKS_HUIT\QLKS\bin\Debug\DAL.dll.config
 D:\Github\Phát triển PM\QLKS_HUIT\QLKS\obj\Debug\QLKS.FormAD.resources
-D:\Github\Phát triển PM\QLKS_HUIT\QLKS\obj\Debug\QLKS.FormNhanVien.resources
 D:\Luu tru\QLKS_HUIT\QLKS\bin\Debug\QLKS.exe.config
 D:\Luu tru\QLKS_HUIT\QLKS\bin\Debug\QLKS.exe
 D:\Luu tru\QLKS_HUIT\QLKS\bin\Debug\QLKS.pdb
@@ -104,3 +103,5 @@ D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\QLKS\bin\Debug\DTO.pdb
 D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\QLKS\obj\Debug\QLKS.csproj.CopyComplete
 D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\QLKS\obj\Debug\QLKS.exe
 D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\QLKS\obj\Debug\QLKS.pdb
+D:\Github\Phát triển PM\QLKS_HUIT\QLKS\obj\Debug\QLKS.FormChiTietPhong.resources
+D:\Github\Phát triển PM\QLKS_HUIT\QLKS\obj\Debug\QLKS.FormDatPhong.resources
