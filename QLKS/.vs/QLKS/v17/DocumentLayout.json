@@ -3,7 +3,19 @@
   "WorkspaceRootPath": "E:\\QLKS_HUIT\\QLKS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8454AEA4-0342-4DF4-80D6-A4F164593F06}|QLKS.csproj|e:\\qlks_huit\\qlks\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8454AEA4-0342-4DF4-80D6-A4F164593F06}|QLKS.csproj|e:\\qlks_huit\\qlks\\formnqlnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8454AEA4-0342-4DF4-80D6-A4F164593F06}|QLKS.csproj|solutionrelative:formnqlnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8454AEA4-0342-4DF4-80D6-A4F164593F06}|QLKS.csproj|e:\\qlks_huit\\qlks\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8454AEA4-0342-4DF4-80D6-A4F164593F06}|QLKS.csproj|solutionrelative:formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8454AEA4-0342-4DF4-80D6-A4F164593F06}|QLKS.csproj|E:\\QLKS_HUIT\\QLKS\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8454AEA4-0342-4DF4-80D6-A4F164593F06}|QLKS.csproj|solutionrelative:formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8454AEA4-0342-4DF4-80D6-A4F164593F06}|QLKS.csproj|E:\\QLKS_HUIT\\QLKS\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8454AEA4-0342-4DF4-80D6-A4F164593F06}|QLKS.csproj|solutionrelative:formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -33,18 +45,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FormnQLNhanVien.cs [Design]",
+              "DocumentMoniker": "E:\\QLKS_HUIT\\QLKS\\FormnQLNhanVien.cs",
+              "RelativeDocumentMoniker": "FormnQLNhanVien.cs",
+              "ToolTip": "E:\\QLKS_HUIT\\QLKS\\FormnQLNhanVien.cs [Design]",
+              "RelativeToolTip": "FormnQLNhanVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T23:44:25.891Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormDangNhap.cs",
+              "DocumentMoniker": "E:\\QLKS_HUIT\\QLKS\\FormDangNhap.cs",
+              "RelativeDocumentMoniker": "FormDangNhap.cs",
+              "ToolTip": "E:\\QLKS_HUIT\\QLKS\\FormDangNhap.cs",
+              "RelativeToolTip": "FormDangNhap.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T12:45:23.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormDangNhap.cs [Design]",
+              "DocumentMoniker": "E:\\QLKS_HUIT\\QLKS\\FormDangNhap.cs",
+              "RelativeDocumentMoniker": "FormDangNhap.cs",
+              "ToolTip": "E:\\QLKS_HUIT\\QLKS\\FormDangNhap.cs [Design]",
+              "RelativeToolTip": "FormDangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T12:45:19.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "FormMain.cs [Design]",
               "DocumentMoniker": "E:\\QLKS_HUIT\\QLKS\\FormMain.cs",
               "RelativeDocumentMoniker": "FormMain.cs",
               "ToolTip": "E:\\QLKS_HUIT\\QLKS\\FormMain.cs [Design]",
               "RelativeToolTip": "FormMain.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T18:31:30.966Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-07-16T18:31:30.966Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "FormMain.cs",
               "DocumentMoniker": "E:\\QLKS_HUIT\\QLKS\\FormMain.cs",
               "RelativeDocumentMoniker": "FormMain.cs",
@@ -52,12 +99,11 @@
               "RelativeToolTip": "FormMain.cs",
               "ViewState": "AQIAAJ8AAAAAAAAAAAAgwKsAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T10:13:48.807Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T10:13:48.807Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "NightControlBox.cs",
               "DocumentMoniker": "E:\\QLKS_HUIT\\themControls\\NightControlBox.cs",
               "RelativeDocumentMoniker": "..\\themControls\\NightControlBox.cs",
@@ -69,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "NightControlBox.resx",
               "DocumentMoniker": "E:\\QLKS_HUIT\\themControls\\NightControlBox.resx",
               "RelativeDocumentMoniker": "..\\themControls\\NightControlBox.resx",
@@ -80,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\QLKS_HUIT\\QLKS\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
