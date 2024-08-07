@@ -1,5 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="HotelManagement" Class="QLKSDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=QUANGCUONG\SQLEXPRESS;Initial Catalog=HotelManagement;Integrated Security=True" SettingsObjectName="DAL.Properties.Settings" SettingsPropertyName="HotelManagementConnectionString" Provider="System.Data.SqlClient" />
   <Table Name="dbo.access" Member="accesses">
     <Type Name="access">
       <Column Name="Idstafftype" Type="System.Int32" DbType="Int" CanBeNull="true" />

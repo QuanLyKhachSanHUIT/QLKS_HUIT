@@ -9,7 +9,7 @@ namespace DAL
 {
     [Table(Name = "STATUSROOM")]
 
-     class StatusRoom
+    class StatusRoom
     {
         [Column(IsPrimaryKey = true, IsDbGenerated = true)]
         public int ID { get; set; }
@@ -18,6 +18,6 @@ namespace DAL
         public string Name { get; set; }
 
         [Column]
-        public string Color { get; set; } 
+        public string Color { get; set; } // Added Color column for StatusColor
     }
 }

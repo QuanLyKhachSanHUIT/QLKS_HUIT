@@ -15,5 +15,10 @@ namespace DTO
         public string RoomType { get; set; }
         public string Status { get; set; }
         public int LimitPerson { get; set; }
+        public int Price { get; set; } 
+
     }
 }
+
+
+

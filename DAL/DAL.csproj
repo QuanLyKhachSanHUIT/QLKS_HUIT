@@ -39,6 +39,7 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -49,6 +50,7 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="ConnectionManager.cs" />
+    <Compile Include="DALNhanVien.cs" />
     <Compile Include="DatasetQLKS.cs">
       <DependentUpon>DatasetQLKS.xsd</DependentUpon>
     </Compile>
@@ -63,6 +65,9 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="QLKS.cs">
+      <DependentUpon>QLKS.dbml</DependentUpon>
+    </Compile>
     <Compile Include="QLKS.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -70,6 +75,8 @@
     </Compile>
     <Compile Include="Room.cs" />
     <Compile Include="RoomDAL.cs" />
+    <Compile Include="RoomType.cs" />
+    <Compile Include="RoomTypeDTO.cs" />
     <Compile Include="StatusRoom.cs" />
     <Compile Include="StatusRoomDAL.cs" />
   </ItemGroup>

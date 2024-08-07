@@ -1,5 +1,21 @@
 D:\Github\Phát triển PM\QLKS_HUIT\DTO\bin\Debug\DTO.dll
 D:\Github\Phát triển PM\QLKS_HUIT\DTO\bin\Debug\DTO.pdb
+D:\Github\Phát triển PM\QLKS_HUIT\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
 D:\Github\Phát triển PM\QLKS_HUIT\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 D:\Github\Phát triển PM\QLKS_HUIT\DTO\obj\Debug\DTO.dll
 D:\Github\Phát triển PM\QLKS_HUIT\DTO\obj\Debug\DTO.pdb
+D:\Luu tru\QLKS_HUIT\DTO\bin\Debug\DTO.dll
+D:\Luu tru\QLKS_HUIT\DTO\bin\Debug\DTO.pdb
+D:\Luu tru\QLKS_HUIT\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\Luu tru\QLKS_HUIT\DTO\obj\Debug\DTO.dll
+D:\Luu tru\QLKS_HUIT\DTO\obj\Debug\DTO.pdb
+D:\PHAT TRIEN PHAN MEM\ViDu\QLKS_HUIT\DTO\bin\Debug\DTO.dll
+D:\PHAT TRIEN PHAN MEM\ViDu\QLKS_HUIT\DTO\bin\Debug\DTO.pdb
+D:\PHAT TRIEN PHAN MEM\ViDu\QLKS_HUIT\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\PHAT TRIEN PHAN MEM\ViDu\QLKS_HUIT\DTO\obj\Debug\DTO.dll
+D:\PHAT TRIEN PHAN MEM\ViDu\QLKS_HUIT\DTO\obj\Debug\DTO.pdb
+D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\DTO\bin\Debug\DTO.dll
+D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\DTO\bin\Debug\DTO.pdb
+D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\DTO\obj\Debug\DTO.dll
+D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\DTO\obj\Debug\DTO.pdb

@@ -86,12 +86,6 @@ namespace DAL
     partial void DeleteSTATUSBILL(STATUSBILL instance);
     #endregion
 		
-		public QLKSDataContext() : 
-				base(global::DAL.Properties.Settings.Default.HotelManagementConnectionString, mappingSource)
-		{
-			OnCreated();
-		}
-		
 		public QLKSDataContext(string connection) : 
 				base(connection, mappingSource)
 		{

@@ -8,21 +8,21 @@ using System.Data.Linq.Mapping;
 namespace DAL
 {
     [Table(Name = "ROOM")]
-
-    class Room
+    public class Room
     {
+       
+       
+            [Column(IsPrimaryKey = true, IsDbGenerated = true)]
+            public int ID { get; set; }
 
-        [Column(IsPrimaryKey = true, IsDbGenerated = true)]
-        public int ID { get; set; }
+            [Column]
+            public string Name { get; set; }
 
-        [Column]
-        public string Name { get; set; }
+            [Column]
+            public int IDRoomType { get; set; }
 
-        [Column]
-        public int IDRoomType { get; set; }
-
-        [Column]
-        public int IDStatusRoom { get; set; }
+            [Column]
+            public int IDStatusRoom { get; set; }
+        }
     }
-}
 

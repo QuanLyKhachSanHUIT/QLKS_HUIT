@@ -13,3 +13,24 @@ D:\Github\Phát triển PM\QLKS_HUIT\themControls\obj\Debug\themControls.csproj.
 D:\Github\Phát triển PM\QLKS_HUIT\themControls\obj\Debug\themControls.csproj.CoreCompileInputs.cache
 D:\Github\Phát triển PM\QLKS_HUIT\themControls\obj\Debug\themControls.dll
 D:\Github\Phát triển PM\QLKS_HUIT\themControls\obj\Debug\themControls.pdb
+D:\Luu tru\QLKS_HUIT\themControls\bin\Debug\themControls.dll
+D:\Luu tru\QLKS_HUIT\themControls\bin\Debug\themControls.pdb
+D:\Luu tru\QLKS_HUIT\themControls\obj\Debug\themControls.NightControlBox.resources
+D:\Luu tru\QLKS_HUIT\themControls\obj\Debug\themControls.csproj.GenerateResource.cache
+D:\Luu tru\QLKS_HUIT\themControls\obj\Debug\themControls.csproj.CoreCompileInputs.cache
+D:\Luu tru\QLKS_HUIT\themControls\obj\Debug\themControls.dll
+D:\Luu tru\QLKS_HUIT\themControls\obj\Debug\themControls.pdb
+D:\PHAT TRIEN PHAN MEM\ViDu\QLKS_HUIT\themControls\bin\Debug\themControls.dll
+D:\PHAT TRIEN PHAN MEM\ViDu\QLKS_HUIT\themControls\bin\Debug\themControls.pdb
+D:\PHAT TRIEN PHAN MEM\ViDu\QLKS_HUIT\themControls\obj\Debug\themControls.NightControlBox.resources
+D:\PHAT TRIEN PHAN MEM\ViDu\QLKS_HUIT\themControls\obj\Debug\themControls.csproj.GenerateResource.cache
+D:\PHAT TRIEN PHAN MEM\ViDu\QLKS_HUIT\themControls\obj\Debug\themControls.csproj.CoreCompileInputs.cache
+D:\PHAT TRIEN PHAN MEM\ViDu\QLKS_HUIT\themControls\obj\Debug\themControls.dll
+D:\PHAT TRIEN PHAN MEM\ViDu\QLKS_HUIT\themControls\obj\Debug\themControls.pdb
+D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\themControls\bin\Debug\themControls.dll
+D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\themControls\bin\Debug\themControls.pdb
+D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\themControls\obj\Debug\themControls.NightControlBox.resources
+D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\themControls\obj\Debug\themControls.csproj.GenerateResource.cache
+D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\themControls\obj\Debug\themControls.csproj.CoreCompileInputs.cache
+D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\themControls\obj\Debug\themControls.dll
+D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\themControls\obj\Debug\themControls.pdb

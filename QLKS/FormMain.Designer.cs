@@ -127,7 +127,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1309, 44);
+            this.panel1.Size = new System.Drawing.Size(1174, 44);
             this.panel1.TabIndex = 3;
             // 
             // button12
@@ -168,7 +168,7 @@
             this.sidebar.Dock = System.Windows.Forms.DockStyle.Left;
             this.sidebar.Location = new System.Drawing.Point(0, 44);
             this.sidebar.Name = "sidebar";
-            this.sidebar.Size = new System.Drawing.Size(260, 533);
+            this.sidebar.Size = new System.Drawing.Size(260, 626);
             this.sidebar.TabIndex = 5;
             // 
             // btnSodokhachsan
@@ -1028,18 +1028,18 @@
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(277, 50);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(267, 46);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1000, 514);
-            this.tableLayoutPanel1.TabIndex = 7;
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(895, 624);
+            this.tableLayoutPanel1.TabIndex = 6;
             // 
             // FormMain
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(1309, 577);
+            this.ClientSize = new System.Drawing.Size(1174, 670);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.sidebar);
             this.Controls.Add(this.panel1);

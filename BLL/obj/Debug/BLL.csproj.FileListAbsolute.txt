@@ -9,4 +9,37 @@ D:\Github\Phát triển PM\QLKS_HUIT\BLL\bin\Debug\DAL.pdb
 D:\Github\Phát triển PM\QLKS_HUIT\BLL\bin\Debug\DAL.dll.config
 D:\Github\Phát triển PM\QLKS_HUIT\BLL\bin\Debug\DTO.pdb
 D:\Github\Phát triển PM\QLKS_HUIT\BLL\obj\Debug\BLL.csproj.CopyComplete
-D:\Github\Phát triển PM\QLKS_HUIT\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\Luu tru\QLKS_HUIT\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\Luu tru\QLKS_HUIT\BLL\obj\Debug\BLL.dll
+D:\Luu tru\QLKS_HUIT\BLL\obj\Debug\BLL.pdb
+D:\Luu tru\QLKS_HUIT\BLL\bin\Debug\BLL.dll
+D:\Luu tru\QLKS_HUIT\BLL\bin\Debug\BLL.pdb
+D:\Luu tru\QLKS_HUIT\BLL\bin\Debug\DAL.dll
+D:\Luu tru\QLKS_HUIT\BLL\bin\Debug\DTO.dll
+D:\Luu tru\QLKS_HUIT\BLL\bin\Debug\DAL.pdb
+D:\Luu tru\QLKS_HUIT\BLL\bin\Debug\DAL.dll.config
+D:\Luu tru\QLKS_HUIT\BLL\bin\Debug\DTO.pdb
+D:\Luu tru\QLKS_HUIT\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\PHAT TRIEN PHAN MEM\ViDu\QLKS_HUIT\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\PHAT TRIEN PHAN MEM\ViDu\QLKS_HUIT\BLL\obj\Debug\BLL.dll
+D:\PHAT TRIEN PHAN MEM\ViDu\QLKS_HUIT\BLL\obj\Debug\BLL.pdb
+D:\PHAT TRIEN PHAN MEM\ViDu\QLKS_HUIT\BLL\bin\Debug\BLL.dll
+D:\PHAT TRIEN PHAN MEM\ViDu\QLKS_HUIT\BLL\bin\Debug\BLL.pdb
+D:\PHAT TRIEN PHAN MEM\ViDu\QLKS_HUIT\BLL\bin\Debug\DAL.dll
+D:\PHAT TRIEN PHAN MEM\ViDu\QLKS_HUIT\BLL\bin\Debug\DTO.dll
+D:\PHAT TRIEN PHAN MEM\ViDu\QLKS_HUIT\BLL\bin\Debug\DAL.pdb
+D:\PHAT TRIEN PHAN MEM\ViDu\QLKS_HUIT\BLL\bin\Debug\DAL.dll.config
+D:\PHAT TRIEN PHAN MEM\ViDu\QLKS_HUIT\BLL\bin\Debug\DTO.pdb
+D:\PHAT TRIEN PHAN MEM\ViDu\QLKS_HUIT\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\BLL\bin\Debug\BLL.dll
+D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\BLL\bin\Debug\BLL.pdb
+D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\BLL\bin\Debug\DAL.dll
+D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\BLL\bin\Debug\DTO.dll
+D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\BLL\bin\Debug\DAL.pdb
+D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\BLL\bin\Debug\DAL.dll.config
+D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\BLL\bin\Debug\DTO.pdb
+D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\BLL\obj\Debug\BLL.dll
+D:\Luu tru\du phong\Gan Nhat\QLKS_HUIT\BLL\obj\Debug\BLL.pdb

@@ -48,13 +48,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BLL">
+    <Reference Include="BLL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\BLL\bin\Debug\BLL.dll</HintPath>
     </Reference>
-    <Reference Include="DAL">
+    <Reference Include="DAL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\DAL\bin\Debug\DAL.dll</HintPath>
     </Reference>
-    <Reference Include="DTO">
+    <Reference Include="DTO, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\DTO\bin\Debug\DTO.dll</HintPath>
     </Reference>
     <Reference Include="System">
@@ -78,29 +81,29 @@
     <Compile Include="FormAD.Designer.cs">
       <DependentUpon>FormAD.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormChiTietPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChiTietPhong.Designer.cs">
+      <DependentUpon>FormChiTietPhong.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormDangNhap.Designer.cs">
       <DependentUpon>FormDangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDatPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDatPhong.Designer.cs">
+      <DependentUpon>FormDatPhong.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormnQLNhanVien.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormnQLNhanVien.Designer.cs">
-      <DependentUpon>FormnQLNhanVien.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormXemChiTiet.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormXemChiTiet.Designer.cs">
-      <DependentUpon>FormXemChiTiet.cs</DependentUpon>
     </Compile>
     <Compile Include="HotelManagementDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -112,17 +115,17 @@
     <EmbeddedResource Include="FormAD.resx">
       <DependentUpon>FormAD.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormChiTietPhong.resx">
+      <DependentUpon>FormChiTietPhong.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormDangNhap.resx">
       <DependentUpon>FormDangNhap.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormDatPhong.resx">
+      <DependentUpon>FormDatPhong.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormnQLNhanVien.resx">
-      <DependentUpon>FormnQLNhanVien.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormXemChiTiet.resx">
-      <DependentUpon>FormXemChiTiet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

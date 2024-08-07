@@ -5,12 +5,11 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading.Tasks;   
 using System.Windows.Forms;
 using BLL;
 using DAL;
 using DTO;
-
 namespace QLKS
 {
     public partial class FormMain : Form
@@ -19,9 +18,9 @@ namespace QLKS
         private string selectedRoomID;
         private StatusRoomBLL statusRoomBLL = new StatusRoomBLL();
         private ContextMenuStrip roomContextMenu;
+
         public FormMain()
         {
-
             InitializeComponent();
             roomContextMenu = new ContextMenuStrip();
             roomContextMenu.Items.Add("Xem chi tiết phòng", null, ViewRoomDetails_Click);
@@ -30,28 +29,73 @@ namespace QLKS
             roomContextMenu.Items.Add("Cập nhật trạng thái", null, UpdateRoomStatus_Click);
             roomContextMenu.Items.Add("Trả phòng", null, CheckoutRoom_Click);
             roomContextMenu.Items.Add("Thêm dịch vụ", null, AddService_Click);
+
             this.Load += FormMain_Load;
+         
 
         }
 
         private void AddService_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
         }
 
         private void CheckoutRoom_Click(object sender, EventArgs e)
         {
             MessageBox.Show($"Xác nhận trả phòng này: {selectedRoomID}");
+
+        }
+
+        private void BookRoom_Click(object sender, EventArgs e)
+        {
+            // Kiểm tra nếu có phòng được chọn
+            if (!string.IsNullOrEmpty(selectedRoomID))
+            {
+                if (int.TryParse(selectedRoomID, out int roomID))
+                {
+                    // Lấy thông tin phòng từ RoomBLL
+                    RoomDTO room = roomBLL.GetRoomByID(roomID);
+
+                    if (room != null)
+                    {
+                        // Kiểm tra trạng thái phòng
+                        if (room.StatusName == "Sẵn sàng")
+                        {
+                            // Hiển thị hộp thoại xác nhận
+                            DialogResult result = MessageBox.Show($"Xác nhận đặt phòng này: {selectedRoomID}?", "Xác nhận đặt phòng", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+
+                            if (result == DialogResult.OK)
+                            {
+                                // Mở form đặt phòng với roomID
+                                FormDatPhong bookRoomForm = new FormDatPhong(roomID);
+                                bookRoomForm.ShowDialog(); // Sử dụng ShowDialog để mở form như một hộp thoại
+                            }
+                        }
+                        else
+                        {
+                            // Thông báo phòng không thể sử dụng
+                            MessageBox.Show("Phòng hiện tại không thể sử dụng hoặc đang có người ở.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Không tìm thấy thông tin phòng.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("ID phòng không hợp lệ.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Chưa chọn phòng để đặt.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void UpdateRoomStatus_Click(object sender, EventArgs e)
         {
             MessageBox.Show($"Cập nhật tình trạng phòng này: {selectedRoomID}");
-        }
 
-        private void BookRoom_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show($"Xác nhận đặt phòng này: {selectedRoomID}");
         }
 
         private void ViewRoomDetails_Click(object sender, EventArgs e)
@@ -64,7 +108,7 @@ namespace QLKS
                     RoomDTO room = roomBLL.GetRoomByID(roomID);
                     if (room != null)
                     {
-                        FormXemChiTiet  detailForm = new FormXemChiTiet(room);
+                        FormChiTietPhong detailForm = new FormChiTietPhong(room);
                         detailForm.ShowDialog(); // Sử dụng ShowDialog để mở form như một hộp thoại
                     }
                     else
@@ -85,7 +129,7 @@ namespace QLKS
 
         private void ReceiveRoom_Click(object sender, EventArgs e)
         {
-            MessageBox.Show($"Xác nhận cho thuê phòng này: {selectedRoomID}");
+            MessageBox.Show($"Xác nhận đặt phòng này: {selectedRoomID}");
         }
 
         private void FormMain_Load(object sender, EventArgs e)
@@ -112,7 +156,7 @@ namespace QLKS
                     Padding = new Padding(5),
                     Margin = new Padding(5),
                     TextAlign = ContentAlignment.MiddleCenter,
-
+                  
                     Tag = room.RoomID
                 };
                 roomButton.Click += RoomButton_Click;
@@ -156,9 +200,24 @@ namespace QLKS
                 }
             }
         }
+      
 
         private void RoomButton_Click(object sender, EventArgs e)
         {
+            /* var clickedButton = sender as Button;
+
+             if (clickedButton != null)
+             {
+                 // Update selectedRoomID
+                 selectedRoomID = clickedButton.Tag.ToString();
+                 // Show room information
+                 MessageBox.Show(clickedButton.Text, "Room Information");
+             }
+             else
+             {
+                 MessageBox.Show("No room is selected.");
+             }
+             */
             var clickedButton = sender as Button;
 
             if (clickedButton != null)
@@ -172,9 +231,29 @@ namespace QLKS
             {
                 MessageBox.Show("No room is selected.");
             }
+
         }
 
-        bool menukhachsanExpand = false;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            bool menukhachsanExpand = false;
         bool menuloaiphongExpand = false;
         bool menudichvuExpand = false;
         bool menucongnoExpand = false;
@@ -357,8 +436,14 @@ namespace QLKS
 
         private void button27_Click(object sender, EventArgs e)
         {
-            FormnQLNhanVien nv = new FormnQLNhanVien();
-            nv.Show();
+          
+           
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
+
