@@ -283,7 +283,7 @@ namespace QLKS
 
         private void button27_Click(object sender, EventArgs e)
         {
-            FormNhanVien nv = new FormNhanVien();
+            FormnQLNhanVien nv = new FormnQLNhanVien();
             nv.Show();
         }
     }

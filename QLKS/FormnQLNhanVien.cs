@@ -25,5 +25,7 @@ namespace QLKS
             this.uSP_LoadFullRoomTypeTableAdapter.Fill(this.hotelManagementDataSet.USP_LoadFullRoomType);
 
         }
+
+
     }
 }

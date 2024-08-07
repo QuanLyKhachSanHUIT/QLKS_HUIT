@@ -33,8 +33,8 @@
             this.uSP_LoadFullRoomTypeBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.uSP_LoadFullRoomTypeTableAdapter = new QLKS.HotelManagementDataSetTableAdapters.USP_LoadFullRoomTypeTableAdapter();
             this.tableAdapterManager = new QLKS.HotelManagementDataSetTableAdapters.TableAdapterManager();
-            this.sTAFFBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.sTAFFTableAdapter = new QLKS.HotelManagementDataSetTableAdapters.STAFFTableAdapter();
+            this.sTAFFBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.sTAFFDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -97,14 +97,14 @@
             this.tableAdapterManager.STATUSROOMTableAdapter = null;
             this.tableAdapterManager.UpdateOrder = QLKS.HotelManagementDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
+            // sTAFFTableAdapter
+            // 
+            this.sTAFFTableAdapter.ClearBeforeFill = true;
+            // 
             // sTAFFBindingSource
             // 
             this.sTAFFBindingSource.DataMember = "STAFF";
             this.sTAFFBindingSource.DataSource = this.hotelManagementDataSet;
-            // 
-            // sTAFFTableAdapter
-            // 
-            this.sTAFFTableAdapter.ClearBeforeFill = true;
             // 
             // sTAFFDataGridView
             // 
@@ -222,20 +222,20 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(704, 35);
+            this.button1.Location = new System.Drawing.Point(809, 35);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(80, 30);
             this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
+            this.button1.Text = "làm mới";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(878, 35);
+            this.button2.Location = new System.Drawing.Point(929, 35);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(80, 30);
             this.button2.TabIndex = 3;
-            this.button2.Text = "button2";
+            this.button2.Text = "thêm";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // comboBox1
@@ -258,7 +258,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(747, 133);
+            this.label3.Location = new System.Drawing.Point(774, 139);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(56, 16);
             this.label3.TabIndex = 6;
@@ -266,9 +266,9 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(841, 127);
+            this.textBox1.Location = new System.Drawing.Point(836, 133);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
+            this.textBox1.Size = new System.Drawing.Size(173, 22);
             this.textBox1.TabIndex = 7;
             // 
             // FormnQLNhanVien
