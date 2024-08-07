@@ -16,87 +16,161 @@ namespace QLKS
     public partial class FormMain : Form
     {
         public RoomBLL roomBLL = new RoomBLL();
+        private string selectedRoomID;
+        private StatusRoomBLL statusRoomBLL = new StatusRoomBLL();
+        private ContextMenuStrip roomContextMenu;
         public FormMain()
         {
 
             InitializeComponent();
+            roomContextMenu = new ContextMenuStrip();
+            roomContextMenu.Items.Add("Xem chi tiết phòng", null, ViewRoomDetails_Click);
+            roomContextMenu.Items.Add("Nhận phòng", null, ReceiveRoom_Click);
+            roomContextMenu.Items.Add("Đặt phòng", null, BookRoom_Click);
+            roomContextMenu.Items.Add("Cập nhật trạng thái", null, UpdateRoomStatus_Click);
+            roomContextMenu.Items.Add("Trả phòng", null, CheckoutRoom_Click);
+            roomContextMenu.Items.Add("Thêm dịch vụ", null, AddService_Click);
             this.Load += FormMain_Load;
 
         }
 
+        private void AddService_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void CheckoutRoom_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"Xác nhận trả phòng này: {selectedRoomID}");
+        }
+
+        private void UpdateRoomStatus_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"Cập nhật tình trạng phòng này: {selectedRoomID}");
+        }
+
+        private void BookRoom_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"Xác nhận đặt phòng này: {selectedRoomID}");
+        }
+
+        private void ViewRoomDetails_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(selectedRoomID))
+            {
+                int roomID;
+                if (int.TryParse(selectedRoomID, out roomID))
+                {
+                    RoomDTO room = roomBLL.GetRoomByID(roomID);
+                    if (room != null)
+                    {
+                        FormXemChiTiet  detailForm = new FormXemChiTiet(room);
+                        detailForm.ShowDialog(); // Sử dụng ShowDialog để mở form như một hộp thoại
+                    }
+                    else
+                    {
+                        MessageBox.Show("Không tìm thấy thông tin phòng.");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("ID phòng không hợp lệ.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Chưa chọn phòng để xem chi tiết.");
+            }
+        }
+
+        private void ReceiveRoom_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"Xác nhận cho thuê phòng này: {selectedRoomID}");
+        }
+
         private void FormMain_Load(object sender, EventArgs e)
         {
-            // Clear any existing controls
-            // Clear any existing controls
             tableLayoutPanel1.Controls.Clear();
             tableLayoutPanel1.RowCount = 0;
-            tableLayoutPanel1.ColumnCount = 4; // Adjust the number of columns as needed
+            tableLayoutPanel1.ColumnCount = 4;
 
-            // Define the dimensions for each label
-            int labelWidth = 200; // Set desired width
-            int labelHeight = 100; // Set desired height
+            int buttonWidth = 200;
+            int buttonHeight = 100;
+            int buttonsPerRow = tableLayoutPanel1.ColumnCount;
 
-            // Define how many labels per row
-            int labelsPerRow = tableLayoutPanel1.ColumnCount;
-
-            // Retrieve room data
             var rooms = roomBLL.GetRooms();
 
             foreach (var room in rooms)
             {
-                // Create a new label for each room
-                var roomLabel = new Label
+                var roomButton = new Button
                 {
                     Text = $"ID: {room.RoomID}\nName: {room.RoomName}\nStatus: {room.StatusName}",
-                    AutoSize = false, // Disable auto-size
-                    Width = labelWidth, // Set fixed width
-                    Height = labelHeight, // Set fixed height
-                    BorderStyle = BorderStyle.FixedSingle,
+                    AutoSize = false,
+                    Width = buttonWidth,
+                    Height = buttonHeight,
+                    FlatStyle = FlatStyle.Flat,
                     Padding = new Padding(5),
                     Margin = new Padding(5),
-                    TextAlign = ContentAlignment.MiddleCenter, // Center text
-                };
+                    TextAlign = ContentAlignment.MiddleCenter,
 
-                // Set the background color based on the room status
+                    Tag = room.RoomID
+                };
+                roomButton.Click += RoomButton_Click;
+
+                // Set background color based on room status
                 switch (room.StatusName)
                 {
                     case "Đang sử dụng":
-                        roomLabel.BackColor = Color.Red;
+                        roomButton.BackColor = Color.Red;
                         break;
                     case "Sẵn sàng":
-                        roomLabel.BackColor = Color.Lime;
+                        roomButton.BackColor = Color.Lime;
                         break;
-                    case "Đang sửa chữa":
-                        roomLabel.BackColor = Color.Yellow;
+                    case "Đang đợi khách":
+                        roomButton.BackColor = Color.Yellow;
                         break;
                     case "Chưa dọn":
-                        roomLabel.BackColor = Color.Gray;
+                        roomButton.BackColor = Color.Gray;
                         break;
                     default:
-                        roomLabel.BackColor = Color.White; // Default color
+                        roomButton.BackColor = Color.White;
                         break;
                 }
-                // Add the label to the TableLayoutPanel
-                tableLayoutPanel1.Controls.Add(roomLabel);
 
-                // Calculate the number of rows needed
-                int totalLabels = tableLayoutPanel1.Controls.Count;
-                int rows = (totalLabels + labelsPerRow - 1) / labelsPerRow; // Calculate rows needed
+                tableLayoutPanel1.Controls.Add(roomButton);
+
+                int totalButtons = tableLayoutPanel1.Controls.Count;
+                int rows = (totalButtons + buttonsPerRow - 1) / buttonsPerRow;
                 tableLayoutPanel1.RowCount = rows;
 
-                // Set row styles with fixed size
                 tableLayoutPanel1.RowStyles.Clear();
                 for (int i = 0; i < rows; i++)
                 {
-                    tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, labelHeight + 10)); // Row height + margin
+                    tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, buttonHeight + 10));
                 }
 
-                // Update column styles with fixed size
                 tableLayoutPanel1.ColumnStyles.Clear();
                 for (int i = 0; i < tableLayoutPanel1.ColumnCount; i++)
                 {
-                    tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, labelWidth + 10)); // Column width + margin
+                    tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, buttonWidth + 10));
                 }
+            }
+        }
+
+        private void RoomButton_Click(object sender, EventArgs e)
+        {
+            var clickedButton = sender as Button;
+
+            if (clickedButton != null)
+            {
+                // Update selectedRoomID
+                selectedRoomID = clickedButton.Tag.ToString();
+                // Show context menu
+                roomContextMenu.Show(Cursor.Position);
+            }
+            else
+            {
+                MessageBox.Show("No room is selected.");
             }
         }
 

@@ -7,3 +7,4 @@ D:\Github\Phát triển PM\QLKS_HUIT\DAL\obj\Debug\DAL.pdb
 D:\Github\Phát triển PM\QLKS_HUIT\DAL\bin\Debug\DTO.dll
 D:\Github\Phát triển PM\QLKS_HUIT\DAL\bin\Debug\DTO.pdb
 D:\Github\Phát triển PM\QLKS_HUIT\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Github\Phát triển PM\QLKS_HUIT\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache

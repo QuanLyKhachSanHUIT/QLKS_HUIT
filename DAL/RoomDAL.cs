@@ -13,47 +13,47 @@ namespace DAL
   
     public class RoomDAL
     {
-        private string connectionString;
+        private QLKSDataContext context;
 
-        public RoomDAL()
+        public RoomDAL(string connectionString)
         {
-            connectionString = ConnectionManager.GetConnectionString();
+            context = new QLKSDataContext(connectionString);
         }
+
+
 
 
 
         public List<RoomDTO> GetRooms()
         {
-            var rooms = new List<RoomDTO>();
-
-            using (var connection = new SqlConnection(connectionString))
-            {
-                var query = @"
-                    SELECT r.ID, r.Name, s.Name AS StatusName
-                    FROM ROOM r
-                    JOIN STATUSROOM s ON r.IDStatusRoom = s.ID";
-
-                var command = new SqlCommand(query, connection);
-                connection.Open();
-
-                using (var reader = command.ExecuteReader())
-                {
-                    while (reader.Read())
+            return (from room in context.ROOMs
+                    join status in context.STATUSROOMs on room.IDStatusRoom equals status.ID
+                    select new RoomDTO
                     {
-                        rooms.Add(new RoomDTO
+                        RoomID = room.ID,
+                        RoomName = room.Name,
+                        StatusName = status.Name // Assuming Status is a related entity
+                    }).ToList();
+        }
+
+        public RoomDTO GetRoomByID(int roomID)
+        {
+            var room = (from r in context.ROOMs
+                        join s in context.STATUSROOMs on r.IDStatusRoom equals s.ID
+                        join rt in context.ROOMTYPEs on r.IDRoomType equals rt.ID
+                        where r.ID == roomID
+                        select new RoomDTO
                         {
-                            RoomID = reader.GetInt32(0),
-                            RoomName = reader.GetString(1),
-                            StatusName = reader.GetString(2)
-                        });
-                    }
-                }
-            }
+                            RoomID = r.ID,
+                            RoomName = r.Name,
+                            StatusName = s.Name,
+                            RoomType = rt.Name,  // Assuming RoomType is represented by Name
+                            Status = s.Name,     // Assuming Status is represented by Name
+                            LimitPerson = rt.LimitPerson // Assuming LimitPerson is in ROOMTYPEs
+                        }).FirstOrDefault();
 
-            return rooms;
-
+            return room;
         }
     }
-     
 
 }

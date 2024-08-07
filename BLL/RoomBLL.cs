@@ -11,15 +11,22 @@ namespace BLL
     {
         private RoomDAL roomDAL;
 
+        // Constructor accepting connection string
         public RoomBLL()
         {
-            roomDAL = new RoomDAL();
+            string connectionString = ConnectionManager.GetConnectionString();
+            roomDAL = new RoomDAL(connectionString);
         }
 
+        // Method to get all rooms
         public List<RoomDTO> GetRooms()
         {
-            return roomDAL.GetRooms();
+            return roomDAL.GetRooms(); // Correctly calling the method from RoomDAL
         }
 
+        public RoomDTO GetRoomByID(int roomID)
+        {
+            return roomDAL.GetRoomByID(roomID); // Ensure this method exists if you need it
+        }
     }
 }

@@ -15,7 +15,6 @@ D:\Github\Phát triển PM\QLKS_HUIT\QLKS\obj\Debug\QLKS.csproj.AssemblyReferenc
 D:\Github\Phát triển PM\QLKS_HUIT\QLKS\obj\Debug\QLKS.FormAD.resources
 D:\Github\Phát triển PM\QLKS_HUIT\QLKS\obj\Debug\QLKS.FormDangNhap.resources
 D:\Github\Phát triển PM\QLKS_HUIT\QLKS\obj\Debug\QLKS.FormMain.resources
-D:\Github\Phát triển PM\QLKS_HUIT\QLKS\obj\Debug\QLKS.FormNhanVien.resources
 D:\Github\Phát triển PM\QLKS_HUIT\QLKS\obj\Debug\QLKS.Properties.Resources.resources
 D:\Github\Phát triển PM\QLKS_HUIT\QLKS\obj\Debug\QLKS.csproj.GenerateResource.cache
 D:\Github\Phát triển PM\QLKS_HUIT\QLKS\obj\Debug\QLKS.csproj.CoreCompileInputs.cache
@@ -34,3 +33,5 @@ D:\Github\Phát triển PM\QLKS_HUIT\QLKS\bin\Debug\DTO.pdb
 D:\Github\Phát triển PM\QLKS_HUIT\QLKS\obj\Debug\QLKS.csproj.CopyComplete
 D:\Github\Phát triển PM\QLKS_HUIT\QLKS\obj\Debug\QLKS.exe
 D:\Github\Phát triển PM\QLKS_HUIT\QLKS\obj\Debug\QLKS.pdb
+D:\Github\Phát triển PM\QLKS_HUIT\QLKS\obj\Debug\QLKS.FormnQLNhanVien.resources
+D:\Github\Phát triển PM\QLKS_HUIT\QLKS\obj\Debug\QLKS.FormXemChiTiet.resources
