@@ -1,0 +1,350 @@
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\bin\Debug\GUI.exe.config
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\bin\Debug\GUI.exe
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\bin\Debug\GUI.pdb
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\bin\Debug\BLL_DAL.dll
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.BonusSkins.v22.2.dll
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Data.Desktop.v22.2.dll
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Data.v22.2.dll
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Drawing.v22.2.dll
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Printing.v22.2.Core.dll
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Sparkline.v22.2.Core.dll
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Utils.v22.2.dll
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraBars.v22.2.dll
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraEditors.v22.2.dll
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Pdf.v22.2.Core.dll
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Pdf.v22.2.Drawing.dll
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\bin\Debug\BLL_DAL.pdb
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\bin\Debug\BLL_DAL.dll.config
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Data.Desktop.v22.2.xml
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Data.v22.2.xml
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Printing.v22.2.Core.xml
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Utils.v22.2.xml
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraBars.v22.2.xml
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Sparkline.v22.2.Core.xml
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraEditors.v22.2.xml
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Pdf.v22.2.Core.xml
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Pdf.v22.2.Drawing.xml
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_CauHinh.resources
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_DangNhap.resources
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\obj\Debug\GUI.exe
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\obj\Debug\GUI.pdb
+C:\Users\DNT\Downloads\DoAn\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_Main.resources
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\GUI.exe.config
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\GUI.exe
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\GUI.pdb
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\BLL_DAL.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.BonusSkins.v22.2.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Data.Desktop.v22.2.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Data.v22.2.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Drawing.v22.2.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Printing.v22.2.Core.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Sparkline.v22.2.Core.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Utils.v22.2.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraBars.v22.2.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraEditors.v22.2.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Pdf.v22.2.Core.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Pdf.v22.2.Drawing.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\BLL_DAL.pdb
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\BLL_DAL.dll.config
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Data.Desktop.v22.2.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Data.v22.2.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Printing.v22.2.Core.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Utils.v22.2.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraBars.v22.2.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Sparkline.v22.2.Core.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraEditors.v22.2.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Pdf.v22.2.Core.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Pdf.v22.2.Drawing.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_CauHinh.resources
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_DangNhap.resources
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_Main.resources
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\obj\Debug\GUI.exe
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\obj\Debug\GUI.pdb
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\GUI.exe.config
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\GUI.exe
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\GUI.pdb
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\BLL_DAL.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.BonusSkins.v22.2.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Data.Desktop.v22.2.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Data.v22.2.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Drawing.v22.2.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Printing.v22.2.Core.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Sparkline.v22.2.Core.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Utils.v22.2.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraBars.v22.2.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraEditors.v22.2.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Pdf.v22.2.Core.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Pdf.v22.2.Drawing.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\BLL_DAL.pdb
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\BLL_DAL.dll.config
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Data.Desktop.v22.2.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Data.v22.2.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Printing.v22.2.Core.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Utils.v22.2.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraBars.v22.2.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Sparkline.v22.2.Core.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraEditors.v22.2.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Pdf.v22.2.Core.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Pdf.v22.2.Drawing.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_CauHinh.resources
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_DangNhap.resources
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_Main.resources
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\obj\Debug\GUI.csproj.CopyComplete
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\obj\Debug\GUI.exe
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\obj\Debug\GUI.pdb
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_QLNhanVien.resources
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_QLNhanVien.resources
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_QLPhong.resources
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_QLKhachHang.resources
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_QLKhachHang.resources
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_QLPhong.resources
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_Phong.resources
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_QLDatPhong.resources
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_Phong.resources
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_QLDatPhong.resources
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_ChiTietDatPhong.resources
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_ChiTietDatPhong.resources
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_QLDichVu.resources
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraGrid.v22.2.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraLayout.v22.2.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraPrinting.v22.2.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.RichEdit.v22.2.Core.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraTreeList.v22.2.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Office.v22.2.Core.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraGrid.v22.2.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraLayout.v22.2.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraPrinting.v22.2.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.RichEdit.v22.2.Core.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraTreeList.v22.2.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Office.v22.2.Core.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraGrid.v22.2.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraLayout.v22.2.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraPrinting.v22.2.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\Syncfusion.Compression.Base.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\Syncfusion.DocIO.Base.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\Syncfusion.OfficeChart.Base.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\Syncfusion.XlsIO.Base.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.RichEdit.v22.2.Core.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraTreeList.v22.2.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Office.v22.2.Core.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraGrid.v22.2.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraLayout.v22.2.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraPrinting.v22.2.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\Syncfusion.Compression.Base.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\Syncfusion.DocIO.Base.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\Syncfusion.OfficeChart.Base.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\Syncfusion.XlsIO.Base.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.RichEdit.v22.2.Core.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraTreeList.v22.2.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Office.v22.2.Core.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_QLDichVu.resources
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_ThanhToan.resources
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\Syncfusion.Compression.Base.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\Syncfusion.DocIO.Base.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\Syncfusion.OfficeChart.Base.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\Syncfusion.XlsIO.Base.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\Syncfusion.Compression.Base.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\Syncfusion.DocIO.Base.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\Syncfusion.OfficeChart.Base.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\Syncfusion.XlsIO.Base.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_ThanhToan.resources
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Charts.v22.2.Core.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Utils.v22.2.UI.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraCharts.v22.2.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraCharts.v22.2.UI.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraCharts.v22.2.Wizard.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraRichEdit.v22.2.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraVerticalGrid.v22.2.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.DataAccess.v22.2.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.DataVisualization.v22.2.Core.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraNavBar.v22.2.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Images.v22.2.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Xpo.v22.2.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.CodeParser.v22.2.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Charts.v22.2.Core.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Utils.v22.2.UI.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraCharts.v22.2.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraCharts.v22.2.UI.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraCharts.v22.2.Wizard.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraRichEdit.v22.2.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraVerticalGrid.v22.2.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.DataAccess.v22.2.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraNavBar.v22.2.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Xpo.v22.2.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_ThongKe.resources
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\obj\Debug\GUI.exe.licenses
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Charts.v22.2.Core.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Utils.v22.2.UI.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraCharts.v22.2.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraCharts.v22.2.UI.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraCharts.v22.2.Wizard.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraRichEdit.v22.2.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraVerticalGrid.v22.2.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.DataAccess.v22.2.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.DataVisualization.v22.2.Core.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraNavBar.v22.2.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Images.v22.2.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Xpo.v22.2.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.CodeParser.v22.2.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Charts.v22.2.Core.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Utils.v22.2.UI.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraCharts.v22.2.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraCharts.v22.2.UI.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraCharts.v22.2.Wizard.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraRichEdit.v22.2.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraVerticalGrid.v22.2.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.DataAccess.v22.2.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraNavBar.v22.2.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Xpo.v22.2.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_ThongKe.resources
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\obj\Debug\GUI.exe.licenses
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\HoaDon1.xlsx
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\HoaDon2.xlsx
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\HoaDon1.xlsx
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\HoaDon2.xlsx
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_ChuyenPhong.resources
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_ChuyenPhong.resources
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_QLTaiKhoan.resources
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_QLTaiKhoan.resources
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\Accord.dll.config
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\Accord.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\Accord.MachineLearning.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\Accord.Math.Core.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\Accord.Math.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\Accord.Statistics.dll
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\Accord.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\Accord.MachineLearning.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\Accord.Math.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\Accord.Math.Core.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\bin\Debug\Accord.Statistics.xml
+C:\Users\ASUS\OneDrive\Desktop\DA_LTCSHARP2_05\SOURCE\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_GoiYDatPhong.resources
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\Accord.dll.config
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\Accord.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\Accord.MachineLearning.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\Accord.Math.Core.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\Accord.Math.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\Accord.Statistics.dll
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\Accord.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\Accord.MachineLearning.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\Accord.Math.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\Accord.Math.Core.xml
+D:\Backup\LT\PTPMUDTM\GitHub\DoAnQLKhachSan\GUI\bin\Debug\Accord.Statistics.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_ChiTietDatPhong.resources
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_CauHinh.resources
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_ChuyenPhong.resources
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_DangNhap.resources
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_Main.resources
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_Phong.resources
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_QLDatPhong.resources
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_QLDichVu.resources
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_QLKhachHang.resources
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_QLNhanVien.resources
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_QLPhong.resources
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_ThanhToan.resources
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_ThongKe.resources
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\obj\Debug\GUI.GUI_QLTaiKhoan.resources
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\obj\Debug\GUI.exe.licenses
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\Accord.dll.config
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\HoaDon1.xlsx
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\HoaDon2.xlsx
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\GUI.exe.config
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\GUI.exe
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\GUI.pdb
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\Accord.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\Accord.MachineLearning.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\Accord.Math.Core.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\Accord.Math.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\Accord.Statistics.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\BLL_DAL.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.BonusSkins.v24.1.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Charts.v24.1.Core.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Data.Desktop.v24.1.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Data.v24.1.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Drawing.v24.1.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Printing.v24.1.Core.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Sparkline.v24.1.Core.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Utils.v24.1.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Utils.v24.1.UI.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraBars.v24.1.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraCharts.v24.1.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraCharts.v24.1.UI.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraCharts.v24.1.Wizard.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraEditors.v24.1.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraGrid.v24.1.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraLayout.v24.1.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraPrinting.v24.1.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\Syncfusion.Compression.Base.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\Syncfusion.DocIO.Base.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\Syncfusion.OfficeChart.Base.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\Syncfusion.XlsIO.Base.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Pdf.v24.1.Core.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Pdf.v24.1.Drawing.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraTreeList.v24.1.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraRichEdit.v24.1.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraVerticalGrid.v24.1.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.RichEdit.v24.1.Core.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.DataAccess.v24.1.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.DataVisualization.v24.1.Core.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraNavBar.v24.1.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Office.v24.1.Core.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Images.v24.1.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Xpo.v24.1.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.CodeParser.v24.1.dll
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\BLL_DAL.pdb
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\BLL_DAL.dll.config
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\Accord.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\Accord.MachineLearning.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\Accord.Math.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\Accord.Math.Core.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\Accord.Statistics.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Charts.v24.1.Core.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Data.Desktop.v24.1.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Data.v24.1.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Printing.v24.1.Core.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Utils.v24.1.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Utils.v24.1.UI.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraBars.v24.1.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Sparkline.v24.1.Core.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraCharts.v24.1.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraCharts.v24.1.UI.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraCharts.v24.1.Wizard.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraEditors.v24.1.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Drawing.v24.1.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraGrid.v24.1.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraLayout.v24.1.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraPrinting.v24.1.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\Syncfusion.Compression.Base.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\Syncfusion.DocIO.Base.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\Syncfusion.OfficeChart.Base.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\Syncfusion.XlsIO.Base.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Pdf.v24.1.Core.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Pdf.v24.1.Drawing.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraTreeList.v24.1.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraRichEdit.v24.1.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraVerticalGrid.v24.1.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.RichEdit.v24.1.Core.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.DataAccess.v24.1.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.XtraNavBar.v24.1.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Office.v24.1.Core.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\bin\Debug\DevExpress.Xpo.v24.1.xml
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\obj\Debug\GUI.csproj.CopyComplete
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\obj\Debug\GUI.exe
+D:\AAAA\New folder\DoAnQLKhachSan\GUI\obj\Debug\GUI.pdb

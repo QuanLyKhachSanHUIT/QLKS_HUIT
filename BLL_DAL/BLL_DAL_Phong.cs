@@ -1,0 +1,114 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BLL_DAL
+{
+    public class BLL_DAL_Phong
+    {
+        QLKhachSanDataContext db = new QLKhachSanDataContext();
+        public BLL_DAL_Phong()
+        {
+
+        }
+
+        public List<Phong> layPhongTheoTrangThai(string TrangThai)
+        {
+            return db.Phongs.Where(t => t.TrangThai == TrangThai).ToList();
+        }
+
+        public List<Phong> layPhongTheoSDTKH(string ma)
+        {
+            var list = from p in db.Phongs
+                       join dp in db.DatPhongs on p.MaPhong equals dp.MaPhong
+                       join kh in db.KhachHangs on dp.MaKH equals kh.MaKH
+                       where kh.DienThoai == ma && dp.TrangThai == "Chưa thanh toán"
+                       select p;
+            return list.ToList<Phong>();
+        }
+
+        public Phong layPhongTheoKey(int ma)
+        {
+            return db.Phongs.FirstOrDefault(t => t.MaPhong == ma);
+        }
+
+        public List<Phong> layPhongTheoLoai(int ma)
+        {
+            return db.Phongs.Where(t => t.MaLoai == ma).ToList();
+        }
+
+        public List<Phong> LoadPhong(string key)
+        {
+            if (string.IsNullOrEmpty(key))
+            {
+                return db.Phongs.ToList();
+            }
+            else
+            {
+                return db.Phongs.Where(x => x.TenPhong.Contains(key) || x.LoaiPhong.TenLoai.Contains(key) || x.GiaPhong.ToString().Contains(key) || x.TrangThai.Contains(key)).ToList();
+            }
+        }
+
+        public bool themPhong(Phong p)
+        {
+            try
+            {
+                db.Phongs.InsertOnSubmit(p);
+                db.SubmitChanges();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        public bool xoaPhong(int ma)
+        {
+            try
+            {
+                Phong p = db.Phongs.FirstOrDefault(x => x.MaPhong == ma);
+                if (p == null)
+                {
+                    return false;
+                }
+                DatPhong ctdp = db.DatPhongs.FirstOrDefault(x => x.MaPhong == ma);
+                if (ctdp != null)
+                {
+                    return false;
+                }
+                db.Phongs.DeleteOnSubmit(p);
+                db.SubmitChanges();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        public bool suaPhong(Phong t)
+        {
+            try
+            {
+                Phong p = db.Phongs.FirstOrDefault(x => x.MaPhong == t.MaPhong);
+                if (p == null)
+                {
+                    return false;
+                }
+                p.TenPhong = t.TenPhong;
+                p.MaLoai = t.MaLoai;
+                p.GiaPhong = t.GiaPhong;
+                p.TrangThai = t.TrangThai;
+                db.SubmitChanges();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+    }
+}
