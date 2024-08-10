@@ -62,3 +62,22 @@ D:\AAAA\New folder\DoAnQLKhachSan\BLL_DAL\obj\Debug\BLL_DAL.csproj.CopyComplete
 D:\AAAA\New folder\DoAnQLKhachSan\BLL_DAL\obj\Debug\BLL_DAL.dll
 D:\AAAA\New folder\DoAnQLKhachSan\BLL_DAL\obj\Debug\BLL_DAL.pdb
 D:\AAAA\New folder\DoAnQLKhachSan\BLL_DAL\obj\Debug\BLL_DAL.csproj.AssemblyReference.cache
+D:\Github\Phát triển PM\QLKS_HUIT\BLL_DAL\bin\Debug\Accord.dll.config
+D:\Github\Phát triển PM\QLKS_HUIT\BLL_DAL\bin\Debug\BLL_DAL.dll.config
+D:\Github\Phát triển PM\QLKS_HUIT\BLL_DAL\bin\Debug\BLL_DAL.dll
+D:\Github\Phát triển PM\QLKS_HUIT\BLL_DAL\bin\Debug\BLL_DAL.pdb
+D:\Github\Phát triển PM\QLKS_HUIT\BLL_DAL\bin\Debug\Accord.dll
+D:\Github\Phát triển PM\QLKS_HUIT\BLL_DAL\bin\Debug\Accord.MachineLearning.dll
+D:\Github\Phát triển PM\QLKS_HUIT\BLL_DAL\bin\Debug\Accord.Math.Core.dll
+D:\Github\Phát triển PM\QLKS_HUIT\BLL_DAL\bin\Debug\Accord.Math.dll
+D:\Github\Phát triển PM\QLKS_HUIT\BLL_DAL\bin\Debug\Accord.Statistics.dll
+D:\Github\Phát triển PM\QLKS_HUIT\BLL_DAL\bin\Debug\Accord.xml
+D:\Github\Phát triển PM\QLKS_HUIT\BLL_DAL\bin\Debug\Accord.MachineLearning.xml
+D:\Github\Phát triển PM\QLKS_HUIT\BLL_DAL\bin\Debug\Accord.Math.xml
+D:\Github\Phát triển PM\QLKS_HUIT\BLL_DAL\bin\Debug\Accord.Math.Core.xml
+D:\Github\Phát triển PM\QLKS_HUIT\BLL_DAL\bin\Debug\Accord.Statistics.xml
+D:\Github\Phát triển PM\QLKS_HUIT\BLL_DAL\obj\Debug\BLL_DAL.csproj.AssemblyReference.cache
+D:\Github\Phát triển PM\QLKS_HUIT\BLL_DAL\obj\Debug\BLL_DAL.csproj.CoreCompileInputs.cache
+D:\Github\Phát triển PM\QLKS_HUIT\BLL_DAL\obj\Debug\BLL_DAL.csproj.CopyComplete
+D:\Github\Phát triển PM\QLKS_HUIT\BLL_DAL\obj\Debug\BLL_DAL.dll
+D:\Github\Phát triển PM\QLKS_HUIT\BLL_DAL\obj\Debug\BLL_DAL.pdb
